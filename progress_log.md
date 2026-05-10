@@ -122,7 +122,7 @@ Daily journal of problems solved, learnings, and next steps.
 
 ## 2026-05-09 — Day 4
 
-**Problems solved: 3**
+**Problems solved: 6**
 
 | # | Problem | Category | Pattern | Score | Review? |
 |---|---------|----------|---------|-------|---------|
@@ -146,7 +146,19 @@ Daily journal of problems solved, learnings, and next steps.
 - `==` vs `!=` in while condition — loop never executed
 - Checking slow == fast before moving — always true on first iteration since both start at head
 
-**In progress: Merge Two Sorted Lists (#21)** — LinkedList / merge_lists / 2/10
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| 19 | Merge Two Sorted Lists (#21) | LinkedList | merge_lists | 2/10 | YES — redo later |
+| 20 | Search Insert Position (#35) | BinarySearch | classic_binary_search | 1/10 | |
+| 21 | Best Time to Buy and Sell Stock (#121) | Greedy | stock_trading | 2/10 | |
+
+**Python learned:**
+- `float('inf')` and `float('-inf')` for infinity — no integer infinity in Python
+- `min(a, b)` and `max(a, b)` built-in functions
+
+**Patterns learned:**
+- Greedy stock trading: track min price so far, check if selling today beats best profit — one pass O(n)
+- Initialize running min/max with first element or `float('inf')`/`float('-inf')`
 
 ## Problems to redo
 - Move Zeroes (#283) — partition pointer logic wasn't intuitive, needs another pass

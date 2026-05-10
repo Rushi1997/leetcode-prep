@@ -9,14 +9,14 @@ Catching back up on DSA patterns after a few years. Solving problems on LeetCode
 | Hashing | 7 | 107 | set_lookup, two_sum_pair, frequency_counting, grouping_by_key |
 | TwoPointers | 6 | 107 | palindrome_check, in_place_array_modification, opposite_ends_pair_sum, partition |
 | Stack | 1 | 100 | bracket_matching |
-| BinarySearch | 1 | 162 | classic_binary_search |
-| LinkedList | 3 | 53 | reversal, fast_slow_pointers |
+| BinarySearch | 2 | 162 | classic_binary_search |
+| LinkedList | 4 | 53 | reversal, fast_slow_pointers, merge_lists |
 | Arrays | 0 | 224 | |
 | SlidingWindow | 0 | 98 | |
 | Trees | 0 | 227 | |
 | Graphs | 0 | 187 | |
 | DynamicProgramming | 0 | 392 | |
-| Greedy | 0 | 331 | |
+| Greedy | 1 | 331 | stock_trading |
 | Backtracking | 0 | 69 | |
 | Heap | 0 | 66 | |
 | String | 0 | 124 | |
@@ -28,7 +28,7 @@ Catching back up on DSA patterns after a few years. Solving problems on LeetCode
 | DivideAndConquer | 0 | 24 | |
 | SegmentTree | 0 | 25 | |
 
-**Total: 18 / 2733**
+**Total: 21 / 2733**
 
 ## Key Files
 
