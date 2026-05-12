@@ -80,7 +80,7 @@
 
 | # | Problem | Difficulty | Score | Acceptance | Status |
 |---|---------|------------|-------|------------|--------|
-| 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | 1/10 | 78.1% | [ ] |
+| 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | 1/10 | 78.1% | [x] |
 | 1379 | [Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/) | Easy | 2/10 | 85.8% | [ ] |
 | 1469 | [Find All The Lonely Nodes](https://leetcode.com/problems/find-all-the-lonely-nodes/) :lock: | Easy | 2/10 | 84.1% | [ ] |
 | 2331 | [Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/) | Easy | 2/10 | 82.4% | [ ] |

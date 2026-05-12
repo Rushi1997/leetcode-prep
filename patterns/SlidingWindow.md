@@ -22,7 +22,7 @@
 | # | Problem | Difficulty | Score | Acceptance | Status |
 |---|---------|------------|-------|------------|--------|
 | 2269 | [Find the K-Beauty of a Number](https://leetcode.com/problems/find-the-k-beauty-of-a-number/) | Easy | 1/10 | 63.3% | [ ] |
-| 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | Easy | 1/10 | 47.7% | [ ] |
+| 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | Easy | 1/10 | 47.7% | [x] |
 | 1652 | [Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/) | Easy | 2/10 | 79.3% | [ ] |
 | 1343 | [Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/) | Medium | 2/10 | 72.8% | [ ] |
 | 2379 | [Minimum Recolors to Get K Consecutive Black Blocks](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/) | Easy | 2/10 | 68.7% | [ ] |
@@ -84,7 +84,7 @@
 | 2743 | [Count Substrings Without Repeating Character](https://leetcode.com/problems/count-substrings-without-repeating-character/) :lock: | Medium | 3/10 | 75.9% | [ ] |
 | 1695 | [Maximum Erasure Value](https://leetcode.com/problems/maximum-erasure-value/) | Medium | 4/10 | 64.3% | [ ] |
 | 2260 | [Minimum Consecutive Cards to Pick Up](https://leetcode.com/problems/minimum-consecutive-cards-to-pick-up/) | Medium | 4/10 | 53.7% | [ ] |
-| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | 4/10 | 39.0% | [ ] |
+| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | 4/10 | 39.0% | [x] |
 
 ## fixed_window_character_frequency
 
@@ -110,7 +110,7 @@
 | 1852 | [Distinct Numbers in Each Subarray](https://leetcode.com/problems/distinct-numbers-in-each-subarray/) :lock: | Medium | 3/10 | 77.3% | [ ] |
 | 1100 | [Find K-Length Substrings With No Repeated Characters](https://leetcode.com/problems/find-k-length-substrings-with-no-repeated-characters/) :lock: | Medium | 3/10 | 76.5% | [ ] |
 | 2107 | [Number of Unique Flavors After Sharing K Candies](https://leetcode.com/problems/number-of-unique-flavors-after-sharing-k-candies/) :lock: | Medium | 3/10 | 60.5% | [ ] |
-| 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | Medium | 3/10 | 48.8% | [ ] |
+| 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | Medium | 3/10 | 48.8% | [x] |
 | 438 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | Medium | 4/10 | 53.7% | [ ] |
 | 2067 | [Number of Equal Count Substrings](https://leetcode.com/problems/number-of-equal-count-substrings/) :lock: | Medium | 5/10 | 45.5% | [ ] |
 | 30 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) | Hard | 8/10 | 34.4% | [ ] |
@@ -279,7 +279,7 @@
 |---|---------|------------|-------|------------|--------|
 | 3851 | [Maximum Requests Without Violating the Limit](https://leetcode.com/problems/maximum-requests-without-violating-the-limit/) :lock: | Medium | 4/10 | 65.0% | [ ] |
 | 1208 | [Get Equal Substrings Within Budget](https://leetcode.com/problems/get-equal-substrings-within-budget/) | Medium | 4/10 | 59.7% | [ ] |
-| 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | Medium | 4/10 | 51.6% | [ ] |
+| 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | Medium | 4/10 | 51.6% | [x] |
 | 1658 | [Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/) | Medium | 5/10 | 40.5% | [ ] |
 | 2302 | [Count Subarrays With Score Less Than K](https://leetcode.com/problems/count-subarrays-with-score-less-than-k/) | Hard | 6/10 | 62.3% | [ ] |
 | 1477 | [Find Two Non-overlapping Sub-arrays Each With Target Sum](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Medium | 6/10 | 36.8% | [ ] |

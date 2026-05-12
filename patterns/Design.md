@@ -77,7 +77,7 @@
 |---|---------|------------|-------|------------|--------|
 | 1476 | [Subrectangle Queries](https://leetcode.com/problems/subrectangle-queries/) | Medium | 2/10 | 86.3% | [ ] |
 | 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | Easy | 2/10 | 69.8% | [ ] |
-| 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | Easy | 2/10 | 69.7% | [ ] |
+| 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | Easy | 2/10 | 69.7% | [x] |
 | 2043 | [Simple Bank System](https://leetcode.com/problems/simple-bank-system/) | Medium | 2/10 | 69.7% | [ ] |
 | 705 | [Design HashSet](https://leetcode.com/problems/design-hashset/) | Easy | 2/10 | 68.0% | [ ] |
 | 706 | [Design HashMap](https://leetcode.com/problems/design-hashmap/) | Easy | 2/10 | 66.5% | [ ] |

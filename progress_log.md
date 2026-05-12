@@ -160,5 +160,67 @@ Daily journal of problems solved, learnings, and next steps.
 - Greedy stock trading: track min price so far, check if selling today beats best profit — one pass O(n)
 - Initialize running min/max with first element or `float('inf')`/`float('-inf')`
 
+---
+
+## 2026-05-10 — Day 5
+
+**Problems solved: 3**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| 22 | Maximum Average Subarray I (#643) | SlidingWindow | fixed_window | 1/10 | |
+| 23 | Minimum Size Subarray Sum (#209) | SlidingWindow | variable_window | 3/10 | |
+| 24 | Longest Substring Without Repeating Characters (#3) | SlidingWindow | variable_window_unique_elements | 4/10 | |
+
+**Python learned:**
+- `for i in range(k, len(nums))` — start a for loop from an offset
+- Prefer integer math inside loops, transform (e.g. divide) once at the end
+- Python ternary: `value_if_true if condition else value_if_false` — no `? :` syntax
+
+**Patterns learned:**
+- Fixed-size sliding window: compute first window sum, then slide by adding right and subtracting left
+- `currentVal = currentVal + nums[i] - nums[i-k]` — the slide step
+- Do minimum work per iteration — avoid dividing every step when you can divide once at the end
+- Variable-size sliding window: expand right, shrink left while condition holds
+- Use `l <= r` not `l < r` when a single-element window can be valid
+- Initialize min tracking with `float('inf')`, return 0 if unchanged
+- Variable window + set: use a set to track what's in the current window, shrink until duplicate is removed
+- `not in` works for sets just like dicts
+- Structure loops so add/advance/update happen once per iteration, put shrinking in a separate `if` block
+
+---
+
+## 2026-05-11 — Day 6
+
+**Problems solved: 3**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Move Zeroes (#283) | TwoPointers | partition | — | review done |
+| 25 | Permutation in String (#567) | SlidingWindow | variable_window_unique_elements | 3/10 | |
+| 26 | Implement Queue using Stacks (#232) | Design | stack_as_queue | 2/10 | |
+| 27 | Maximum Depth of Binary Tree (#104) | Trees | dfs_traversal | 1/10 | |
+
+**Python learned:**
+- `.get(key, 0)` not `.getOrDefault(key, 0)` — that's Java
+- `for key, value in d.items()` — iterate dict with keys and values
+- `del d[key]` — remove key from dict (needed when count reaches 0 for dict equality)
+- `Counter(s)` from `collections` — builds frequency map in one line
+- Dict equality `d1 == d2` checks all keys and values match
+- `self.varName` in `__init__` for instance variables — without `self.` they're local and disappear
+- `len(x) > 0` not `len(x > 0)` — parentheses matter
+- `not stack` or `len(stack) == 0` to check empty — no built-in `empty()`
+
+**Patterns learned:**
+- Fixed window + frequency map: slide window of size `len(s1)`, compare frequency maps at each position
+- Add new char, remove leftmost char, delete key if count hits 0 (so `==` comparison works)
+- Always check `len(s1) > len(s2)` early — window can't be bigger than the string
+- Queue from two stacks: push to st1, pop/peek from st2 — only transfer when st2 is empty
+- Popping from one stack into another reverses the order (LIFO → FIFO)
+- DFS recursive tree traversal: base case `node == None → return 0`, recurse on left and right
+- `maxDepth = 1 + max(left, right)` — the recursive formula for tree depth
+- Three ways to write recursive helpers: reuse the method itself, inner function (no `self`), or parallel method (`self` needed)
+- BFS uses `collections.deque` — `popleft()` is O(1) vs `list.pop(0)` is O(n)
+
 ## Problems to redo
-- Move Zeroes (#283) — partition pointer logic wasn't intuitive, needs another pass
+- Move Zeroes (#283) — review done 2026-05-11
