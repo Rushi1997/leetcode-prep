@@ -222,5 +222,41 @@ Daily journal of problems solved, learnings, and next steps.
 - Three ways to write recursive helpers: reuse the method itself, inner function (no `self`), or parallel method (`self` needed)
 - BFS uses `collections.deque` — `popleft()` is O(1) vs `list.pop(0)` is O(n)
 
+---
+
+## 2026-05-12 — Day 7
+
+**Problems solved: 1**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Merge Two Sorted Lists (#21) | LinkedList | merge_lists | — | review done |
+| 28 | Same Tree (#100) | Trees | dfs_traversal | 2/10 | YES — redo later |
+
+**Patterns learned:**
+- Same Tree: check both None → True, one None → False, vals not equal → False, then recurse both children
+- `p.val == q.val` not `p.val and q.val` — the latter checks truthiness (0 would fail)
+- Merge sorted lists optimization: attach leftover tail directly (`current.next = list1 or list2`)
+
+---
+
+## 2026-05-13 — Day 8
+
+**Problems solved: 2**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| — | Maximum Depth of Binary Tree (#104) | Trees | dfs_traversal | — | BFS version done |
+| 29 | Invert Binary Tree (#226) | Trees | tree_modification | 2/10 | |
+| 30 | Path Sum (#112) | Trees | path_sum | 2/10 | YES — redo cleaner |
+
+**Patterns learned:**
+- BFS level-order template: `while q` → `for _ in range(len(q))` → `popleft()` → add children
+- `len(q)` captured at start of for loop — new children wait for next level
+- `popleft()` for FIFO (queue), `pop()` for LIFO (stack)
+- Invert tree: swap children then recurse — same base case pattern as other tree problems
+- Path sum: subtract current val from target going down, check `val == remaining` at leaf — cleaner than tracking a running total
+- Leaf node = `node.left is None and node.right is None`
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11

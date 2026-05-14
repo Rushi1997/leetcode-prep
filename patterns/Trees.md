@@ -257,7 +257,7 @@
 
 | # | Problem | Difficulty | Score | Acceptance | Status |
 |---|---------|------------|-------|------------|--------|
-| 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | 2/10 | 80.0% | [ ] |
+| 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | 2/10 | 80.0% | [x] |
 | 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | Easy | 2/10 | 79.1% | [ ] |
 | 1325 | [Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/) | Medium | 4/10 | 77.2% | [ ] |
 | 1660 | [Correct a Binary Tree](https://leetcode.com/problems/correct-a-binary-tree/) :lock: | Medium | 5/10 | 74.3% | [ ] |
