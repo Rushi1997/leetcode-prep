@@ -242,13 +242,15 @@ Daily journal of problems solved, learnings, and next steps.
 
 ## 2026-05-13 — Day 8
 
-**Problems solved: 2**
+**Problems solved: 4**
 
 | # | Problem | Category | Pattern | Score | Review? |
 |---|---------|----------|---------|-------|---------|
 | — | Maximum Depth of Binary Tree (#104) | Trees | dfs_traversal | — | BFS version done |
 | 29 | Invert Binary Tree (#226) | Trees | tree_modification | 2/10 | |
 | 30 | Path Sum (#112) | Trees | path_sum | 2/10 | YES — redo cleaner |
+| 31 | Search in a Binary Search Tree (#700) | Trees | bst_operations | 1/10 | |
+| 32 | Average of Levels in Binary Tree (#637) | Trees | bfs_level_order | 2/10 | |
 
 **Patterns learned:**
 - BFS level-order template: `while q` → `for _ in range(len(q))` → `popleft()` → add children
@@ -257,6 +259,31 @@ Daily journal of problems solved, learnings, and next steps.
 - Invert tree: swap children then recurse — same base case pattern as other tree problems
 - Path sum: subtract current val from target going down, check `val == remaining` at leaf — cleaner than tracking a running total
 - Leaf node = `node.left is None and node.right is None`
+- BST property: left < root < right — only search one side, like binary search on a sorted array
+- BFS level-order to compute per-level stats: save `count = len(q)` before the inner loop, use it for average
+- Don't shadow built-in names like `sum` — use `level_sum` or `total`
+
+---
+
+## 2026-05-14 — Day 9
+
+**Problems solved: 3**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| 33 | Symmetric Tree (#101) | Trees | dfs_traversal | 2/10 | YES — redo later |
+| 34 | Subtree of Another Tree (#572) | Trees | dfs_traversal | 5/10 | |
+| 35 | Lowest Common Ancestor of a BST (#235) | Trees | lowest_common_ancestor | 4/10 | |
+
+**Patterns learned:**
+- Symmetric tree = Same Tree but mirrored: compare `left.left` with `right.right` and `left.right` with `right.left`
+- Helper function takes two nodes — same base cases as Same Tree
+- Don't forget the value check along with structure checks
+- Subtree check = DFS through main tree + isSameTree at each matching node
+- Reuse helper functions (isSameTree) across problems — composing simple functions beats writing complex ones
+- LCA in BST: both smaller → go left, both larger → go right, otherwise you're at the split point → return root
+- The split point catches all cases: one left one right, or one equals root
+- Python chained comparisons: `a <= b <= c` works
 
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11

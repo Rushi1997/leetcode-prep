@@ -228,7 +228,7 @@
 | 3319 | [K-th Largest Perfect Subtree Size in Binary Tree](https://leetcode.com/problems/k-th-largest-perfect-subtree-size-in-binary-tree/) | Medium | 5/10 | 62.2% | [ ] |
 | 3004 | [Maximum Subtree of the Same Color](https://leetcode.com/problems/maximum-subtree-of-the-same-color/) :lock: | Medium | 5/10 | 58.7% | [ ] |
 | 3249 | [Count the Number of Good Nodes](https://leetcode.com/problems/count-the-number-of-good-nodes/) | Medium | 5/10 | 55.4% | [ ] |
-| 572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | Easy | 5/10 | 51.5% | [ ] |
+| 572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | Easy | 5/10 | 51.5% | [x] |
 | 663 | [Equal Tree Partition](https://leetcode.com/problems/equal-tree-partition/) :lock: | Medium | 5/10 | 42.3% | [ ] |
 | 1530 | [Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/) | Medium | 6/10 | 71.8% | [ ] |
 | 652 | [Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/) | Medium | 6/10 | 60.7% | [ ] |
@@ -398,7 +398,7 @@
 | # | Problem | Difficulty | Score | Acceptance | Status |
 |---|---------|------------|-------|------------|--------|
 | 1650 | [Lowest Common Ancestor of a Binary Tree III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/) :lock: | Medium | 4/10 | 83.0% | [ ] |
-| 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | Medium | 4/10 | 70.5% | [ ] |
+| 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | Medium | 4/10 | 70.5% | [x] |
 | 1257 | [Smallest Common Region](https://leetcode.com/problems/smallest-common-region/) :lock: | Medium | 4/10 | 68.3% | [ ] |
 | 1676 | [Lowest Common Ancestor of a Binary Tree IV](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iv/) :lock: | Medium | 5/10 | 79.6% | [ ] |
 | 1740 | [Find Distance in a Binary Tree](https://leetcode.com/problems/find-distance-in-a-binary-tree/) :lock: | Medium | 5/10 | 74.3% | [ ] |

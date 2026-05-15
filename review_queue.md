@@ -8,3 +8,4 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Merge Two Sorted Lists (#21) | LinkedList | merge_lists | 2026-05-09 | 2026-05-12 | done |
 | Same Tree (#100) | Trees | dfs_traversal | 2026-05-12 | 2026-05-15 | pending |
 | Path Sum (#112) | Trees | path_sum | 2026-05-13 | 2026-05-16 | pending |
+| Symmetric Tree (#101) | Trees | dfs_traversal | 2026-05-14 | 2026-05-17 | pending |
