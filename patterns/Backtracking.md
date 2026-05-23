@@ -22,7 +22,7 @@
 | # | Problem | Difficulty | Score | Acceptance | Status |
 |---|---------|------------|-------|------------|--------|
 | 77 | [Combinations](https://leetcode.com/problems/combinations/) | Medium | 4/10 | 74.5% | [ ] |
-| 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | Medium | 4/10 | 66.0% | [ ] |
+| 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | Medium | 4/10 | 66.0% | [x] |
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | Medium | 5/10 | 78.6% | [ ] |
 | 1286 | [Iterator for Combination](https://leetcode.com/problems/iterator-for-combination/) | Medium | 5/10 | 72.6% | [ ] |
 | 1087 | [Brace Expansion](https://leetcode.com/problems/brace-expansion/) :lock: | Medium | 5/10 | 66.9% | [ ] |
@@ -49,7 +49,7 @@
 | # | Problem | Difficulty | Score | Acceptance | Status |
 |---|---------|------------|-------|------------|--------|
 | 2044 | [Count Number of Maximum Bitwise-OR Subsets](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/) | Medium | 4/10 | 89.5% | [ ] |
-| 78 | [Subsets](https://leetcode.com/problems/subsets/) | Medium | 4/10 | 82.3% | [ ] |
+| 78 | [Subsets](https://leetcode.com/problems/subsets/) | Medium | 4/10 | 82.3% | [x] |
 | 491 | [Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences/) | Medium | 5/10 | 62.7% | [ ] |
 | 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | Medium | 5/10 | 61.2% | [ ] |
 | 1774 | [Closest Dessert Cost](https://leetcode.com/problems/closest-dessert-cost/) | Medium | 5/10 | 48.7% | [ ] |
@@ -99,7 +99,7 @@
 
 | # | Problem | Difficulty | Score | Acceptance | Status |
 |---|---------|------------|-------|------------|--------|
-| 46 | [Permutations](https://leetcode.com/problems/permutations/) | Medium | 4/10 | 81.9% | [ ] |
+| 46 | [Permutations](https://leetcode.com/problems/permutations/) | Medium | 4/10 | 81.9% | [x] |
 | 949 | [Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/) | Medium | 4/10 | 35.9% | [ ] |
 | 1079 | [Letter Tile Possibilities](https://leetcode.com/problems/letter-tile-possibilities/) | Medium | 5/10 | 83.5% | [ ] |
 | 47 | [Permutations II](https://leetcode.com/problems/permutations-ii/) | Medium | 6/10 | 63.4% | [ ] |

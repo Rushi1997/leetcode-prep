@@ -360,5 +360,81 @@ Daily journal of problems solved, learnings, and next steps.
 - Graph DFS: same as tree DFS but need a visited set to avoid cycles
 - Short-circuit: `if self.dfs(...): return True` instead of `found = found or self.dfs(...)` — stops early
 
+---
+
+## 2026-05-21 — Day 14
+
+**Problems solved: 3**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| 42 | Clone Graph (#133) | Graphs | graph_traversal | 5/10 | |
+| R | Same Tree (#100) | Trees | dfs_traversal | — | review done |
+| R | Path Sum (#112) | Trees | path_sum | — | review done, retry 05-28 |
+| 43 | Max Area of Island (#695) | Graphs | grid_traversal | 3/10 | |
+| 44 | Keys and Rooms (#841) | Graphs | dfs_connected_components | 3/10 | |
+
+**Patterns learned:**
+- Clone graph: DFS with a map of `original → clone`, return cloned node
+- Store clone in map BEFORE recursing into neighbors — prevents infinite loop on cycles
+- Inner functions (closures) can access variables from the outer function without `self`
+- Max Area of Island: same as Number of Islands but DFS tracks area via visited set or return count
+- Two approaches: visited set with `len(visited)`, or sink cells and return count — both work
+- Reachability check: DFS from start, compare `len(visited) == len(total)` at the end
+- Avoid class-level variables — shared across test cases on LeetCode, pass state as parameters instead
+
+---
+
+## 2026-05-22 — Day 15
+
+**Problems solved: 4**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| 45 | Course Schedule (#207) | Graphs | topological_sort | 5/10 | YES — redo later |
+| 46 | Course Schedule II (#210) | Graphs | topological_sort | 5/10 | YES — redo later |
+| 47 | Subsets (#78) | Backtracking | subset_enumeration | 4/10 | YES — redo later |
+| 48 | Permutations (#46) | Backtracking | permutation_generation | 4/10 | YES — redo later |
+
+**Patterns learned:**
+- Cycle detection in directed graph: DFS with two sets — `visiting` (current path) and `visited` (fully processed)
+- `visiting` = backtracking set: add before recursing, remove after — tracks current DFS path
+- `visited` = permanent set: once proven safe, never re-check
+- If node in `visiting` → cycle. If node in `visited` → skip. Otherwise explore.
+- Short-circuit in loops: `if not self.dfs(...): return False` — stop as soon as cycle is found
+- `.append()` returns `None` — don't chain it with assignment
+- Topological sort via DFS: append course to result at backtrack point (after all prereqs processed)
+- Deepest nodes (no dependencies) get added first — order builds naturally
+- Pass result list as parameter — lists are by reference, no need to return it
+- `.append([x])` appends a list, `.append(x)` appends the value — watch the brackets
+- Propagate cycle detection consistently: if recursive call finds cycle, return True (not False)
+- Backtracking template: pass `current` and `result` as params, choose → recurse → unchoose
+- Base case: `index == len(nums)` → append `current.copy()` to result
+- `.copy()` is critical — without it all entries in result point to the same mutating list
+- `list.pop()` to unchoose (remove last element)
+- Permutations: no index, loop all elements, use a `used` set, one DFS call inside for loop
+- Subsets = order doesn't matter → index moves forward, include/skip
+- Permutations = order matters → full array, loop + used set
+- Key question: "does [1,2] differ from [2,1]?" → yes = permutation, no = subset
+
+---
+
+## 2026-05-23 — Day 16
+
+**Problems solved: 2**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| 49 | Combinations (#77) | Backtracking | combination_generation | 4/10 | YES — redo later |
+| 50 | Letter Combinations of a Phone Number (#17) | Backtracking | combination_generation | 4/10 | |
+
+**Patterns learned:**
+- Combinations: forward loop from `start` to `n`, recurse with `i + 1`, base case `len(current) == k`
+- Forward loop template handles both subsets and combinations — difference is the base case
+- Two backtracking templates: forward loop (subsets/combinations) vs full loop + used set (permutations)
+- `"".join(list)` to convert list of chars to string
+- `.append(x)` not `.append[x]` — parentheses not brackets
+- Check empty input early to avoid appending empty results
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11

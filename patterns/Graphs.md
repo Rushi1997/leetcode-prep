@@ -66,7 +66,7 @@
 | 339 | [Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum/) :lock: | Medium | 2/10 | 86.0% | [ ] |
 | 1971 | [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/) | Easy | 2/10 | 55.1% | [x] |
 | 997 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | Easy | 2/10 | 50.7% | [ ] |
-| 841 | [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) | Medium | 3/10 | 75.7% | [ ] |
+| 841 | [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) | Medium | 3/10 | 75.7% | [x] |
 | 2658 | [Maximum Number of Fish in a Grid](https://leetcode.com/problems/maximum-number-of-fish-in-a-grid/) | Medium | 3/10 | 70.6% | [ ] |
 | 690 | [Employee Importance](https://leetcode.com/problems/employee-importance/) | Medium | 3/10 | 69.4% | [ ] |
 | 1236 | [Web Crawler](https://leetcode.com/problems/web-crawler/) :lock: | Medium | 3/10 | 68.8% | [ ] |
@@ -83,7 +83,7 @@
 | 1743 | [Restore the Array From Adjacent Pairs](https://leetcode.com/problems/restore-the-array-from-adjacent-pairs/) | Medium | 5/10 | 75.0% | [ ] |
 | 3535 | [Unit Conversion II](https://leetcode.com/problems/unit-conversion-ii/) :lock: | Medium | 5/10 | 66.5% | [ ] |
 | 1466 | [Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | Medium | 5/10 | 65.8% | [ ] |
-| 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/) | Medium | 5/10 | 65.2% | [ ] |
+| 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/) | Medium | 5/10 | 65.2% | [x] |
 | 694 | [Number of Distinct Islands](https://leetcode.com/problems/number-of-distinct-islands/) :lock: | Medium | 5/10 | 62.8% | [ ] |
 | 3387 | [Maximize Amount After Two Days of Conversions](https://leetcode.com/problems/maximize-amount-after-two-days-of-conversions/) | Medium | 5/10 | 61.3% | [ ] |
 | 2077 | [Paths in Maze That Lead to Same Room](https://leetcode.com/problems/paths-in-maze-that-lead-to-same-room/) :lock: | Medium | 5/10 | 56.7% | [ ] |
@@ -173,8 +173,8 @@
 | 1136 | [Parallel Courses](https://leetcode.com/problems/parallel-courses/) :lock: | Medium | 5/10 | 62.2% | [ ] |
 | 2192 | [All Ancestors of a Node in a Directed Acyclic Graph](https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/) | Medium | 5/10 | 62.1% | [ ] |
 | 2115 | [Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/) | Medium | 5/10 | 56.9% | [ ] |
-| 210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | Medium | 5/10 | 55.4% | [ ] |
-| 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | Medium | 5/10 | 51.3% | [ ] |
+| 210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | Medium | 5/10 | 55.4% | [x] |
+| 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | Medium | 5/10 | 51.3% | [x] |
 | 444 | [Sequence Reconstruction](https://leetcode.com/problems/sequence-reconstruction/) :lock: | Medium | 5/10 | 30.8% | [ ] |
 | 851 | [Loud and Rich](https://leetcode.com/problems/loud-and-rich/) | Medium | 6/10 | 63.4% | [ ] |
 | 310 | [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) | Medium | 6/10 | 42.5% | [ ] |

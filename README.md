@@ -14,10 +14,10 @@ Catching back up on DSA patterns after a few years. Solving problems on LeetCode
 | Arrays | 0 | 224 | |
 | SlidingWindow | 4 | 98 | fixed_window, variable_window, variable_window_unique_elements |
 | Trees | 10 | 227 | dfs_traversal, tree_modification, path_sum, bst_operations, bfs_level_order, lowest_common_ancestor |
-| Graphs | 3 | 187 | grid_traversal, dfs_connected_components |
+| Graphs | 8 | 187 | grid_traversal, dfs_connected_components, graph_traversal, topological_sort |
 | DynamicProgramming | 0 | 392 | |
 | Greedy | 1 | 331 | stock_trading |
-| Backtracking | 0 | 69 | |
+| Backtracking | 4 | 69 | subset_enumeration, permutation_generation, combination_generation |
 | Heap | 0 | 66 | |
 | String | 0 | 124 | |
 | Math | 0 | 129 | |
@@ -28,7 +28,7 @@ Catching back up on DSA patterns after a few years. Solving problems on LeetCode
 | DivideAndConquer | 0 | 24 | |
 | SegmentTree | 0 | 25 | |
 
-**Total: 41 / 2733**
+**Total: 50 / 2733**
 
 ## Key Files
 
