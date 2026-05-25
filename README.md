@@ -15,7 +15,7 @@ Catching back up on DSA patterns after a few years. Solving problems on LeetCode
 | SlidingWindow | 4 | 98 | fixed_window, variable_window, variable_window_unique_elements |
 | Trees | 10 | 227 | dfs_traversal, tree_modification, path_sum, bst_operations, bfs_level_order, lowest_common_ancestor |
 | Graphs | 8 | 187 | grid_traversal, dfs_connected_components, graph_traversal, topological_sort |
-| DynamicProgramming | 2 | 392 | linear_dp |
+| DynamicProgramming | 3 | 392 | linear_dp |
 | Greedy | 1 | 331 | stock_trading |
 | Backtracking | 4 | 69 | subset_enumeration, permutation_generation, combination_generation |
 | Heap | 0 | 66 | |
@@ -28,7 +28,7 @@ Catching back up on DSA patterns after a few years. Solving problems on LeetCode
 | DivideAndConquer | 0 | 24 | |
 | SegmentTree | 0 | 25 | |
 
-**Total: 53 / 2733**
+**Total: 54 / 2733**
 
 ## Key Files
 

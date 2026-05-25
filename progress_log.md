@@ -450,5 +450,24 @@ Daily journal of problems solved, learnings, and next steps.
 - Min cost DP: `dp[i] = cost[i] + min(dp[i-1], dp[i-2])` — add current cost to cheapest way to get here
 - When you can reach the top from multiple steps, return `min()` of those options
 
+---
+
+## 2026-05-24 — Day 17
+
+**Problems solved: 1**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Subsets (#78) | Backtracking | subset_enumeration | — | review done, retry 05-28 |
+| R | Permutations (#46) | Backtracking | permutation_generation | — | review done, retry 05-28 |
+| R | Daily Temperatures (#739) | Stack | monotonic_stack | — | review done |
+| 54 | House Robber (#198) | DynamicProgramming | linear_dp | 3/10 | YES — redo later |
+
+**Patterns learned:**
+- House Robber: `dp[i] = max(dp[i-1], nums[i] + dp[i-2])` — skip or rob at each step
+- When dp[i] already considers dp[i-1], the final answer is just dp[n-1] (no need for max of last two)
+- Subsets forward loop: append `current.copy()` at every level, not just base case
+- Use `i` from the loop, not `index` from the parameter — common backtracking bug
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11
