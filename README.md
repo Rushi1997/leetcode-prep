@@ -16,9 +16,9 @@ Catching back up on DSA patterns after a few years. Solving problems on LeetCode
 | Trees | 10 | 227 | dfs_traversal, tree_modification, path_sum, bst_operations, bfs_level_order, lowest_common_ancestor |
 | Graphs | 8 | 187 | grid_traversal, dfs_connected_components, graph_traversal, topological_sort |
 | DynamicProgramming | 7 | 392 | linear_dp, knapsack |
-| Greedy | 4 | 331 | stock_trading, interval_merge, interval_scheduling |
+| Greedy | 5 | 331 | stock_trading, interval_merge, interval_scheduling, cooldown_scheduling |
 | Backtracking | 4 | 69 | subset_enumeration, permutation_generation, combination_generation |
-| Heap | 5 | 66 | top_k_elements, top_k_frequent, simulation_heap, design_priority_queue |
+| Heap | 6 | 66 | top_k_elements, top_k_frequent, simulation_heap, design_priority_queue, two_heaps_median |
 | String | 0 | 124 | |
 | Math | 0 | 129 | |
 | BitManipulation | 0 | 131 | |
@@ -28,7 +28,7 @@ Catching back up on DSA patterns after a few years. Solving problems on LeetCode
 | DivideAndConquer | 1 | 24 | merge_sort |
 | SegmentTree | 0 | 25 | |
 
-**Total: 67 / 2733**
+**Total: 69 / 2733**
 
 ## Key Files
 

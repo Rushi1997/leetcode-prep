@@ -240,7 +240,7 @@
 | 2323 | [Find Minimum Time to Finish All Jobs II](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs-ii/) :lock: | Medium | 4/10 | 66.1% | [ ] |
 | 3476 | [Maximize Profit from Task Assignment](https://leetcode.com/problems/maximize-profit-from-task-assignment/) :lock: | Medium | 4/10 | 65.5% | [ ] |
 | 3189 | [Minimum Moves to Get a Peaceful Board](https://leetcode.com/problems/minimum-moves-to-get-a-peaceful-board/) :lock: | Medium | 5/10 | 75.8% | [ ] |
-| 621 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | Medium | 5/10 | 63.0% | [ ] |
+| 621 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | Medium | 5/10 | 63.0% | [x] |
 | 3767 | [Maximize Points After Choosing K Tasks](https://leetcode.com/problems/maximize-points-after-choosing-k-tasks/) | Medium | 5/10 | 60.0% | [ ] |
 | 1057 | [Campus Bikes](https://leetcode.com/problems/campus-bikes/) :lock: | Medium | 5/10 | 59.1% | [ ] |
 | 2365 | [Task Scheduler II](https://leetcode.com/problems/task-scheduler-ii/) | Medium | 5/10 | 54.8% | [ ] |

@@ -635,5 +635,46 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-06-01 — Day 25
+
+**Problems solved: 2**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Sort an Array (#912) | DivideAndConquer | merge_sort | — | review done, retry 06-16 |
+| 68 | Task Scheduler (#621) | Greedy | cooldown_scheduling | 5/10 | YES — redo 06-04 |
+
+**Patterns learned:**
+- Task Scheduler: max heap for most frequent task + queue with cooldown timer
+- After popping from heap, add to queue with `(count, task, time + n + 1)` as available time
+- When available time matches current time, push back to heap
+- Keep looping while either heap or queue has items
+
+**Bugs:**
+- Merge sort: forgot `// 2` in `mid = len(nums)` — infinite recursion
+
+---
+
+## 2026-06-02 — Day 26
+
+**Problems solved: 1**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| 69 | Find Median from Data Stream (#295) | Heap | two_heaps_median | 8/10 | YES — redo 06-06 |
+
+**Python learned:**
+- `heapq.heappush(heap, val)` — heap is first arg, value is second (got this backwards multiple times)
+- Operator precedence: `(a + b) % 2` needs parentheses, otherwise only `b % 2` is computed
+
+**Patterns learned:**
+- Two heaps for streaming median: max heap (smaller half), min heap (larger half)
+- Max heap gives largest of small numbers, min heap gives smallest of large numbers — tops are the middle
+- Compare new num against `-maxHeap[0]` to decide which half it belongs to
+- Rebalance: max heap can be at most 1 bigger than min heap
+- When moving between heaps, always negate the value (max heap stores negated)
+
+---
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11

@@ -186,7 +186,7 @@
 | # | Problem | Difficulty | Score | Acceptance | Status |
 |---|---------|------------|-------|------------|--------|
 | 1801 | [Number of Orders in the Backlog](https://leetcode.com/problems/number-of-orders-in-the-backlog/) | Medium | 5/10 | 53.9% | [ ] |
-| 295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | Hard | 8/10 | 54.4% | [ ] |
+| 295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | Hard | 8/10 | 54.4% | [x] |
 
 ## heap_sort_greedy
 

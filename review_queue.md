@@ -46,7 +46,10 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | House Robber II (#213) | DynamicProgramming | linear_dp | 2026-05-30 | 2026-06-09 | pending |
 | Insert Interval (#57) | Greedy | interval_merge | 2026-05-31 | 2026-06-04 | pending |
 | Non-overlapping Intervals (#435) | Greedy | interval_scheduling | 2026-05-31 | 2026-06-05 | pending |
+| Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-06-01 | 2026-06-04 | pending |
+| Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-06-02 | 2026-06-06 | pending |
 | Delete and Earn (#740) | DynamicProgramming | linear_dp | 2026-05-27 | 2026-05-30 | done |
 | Delete and Earn (#740) | DynamicProgramming | linear_dp | 2026-05-30 | 2026-06-06 | pending |
-| Sort an Array (#912) | DivideAndConquer | merge_sort | 2026-05-29 | 2026-06-01 | pending |
+| Sort an Array (#912) | DivideAndConquer | merge_sort | 2026-05-29 | 2026-06-01 | done |
+| Sort an Array (#912) | DivideAndConquer | merge_sort | 2026-06-01 | 2026-06-16 | pending |
 | Merge Intervals (#56) | Greedy | interval_merge | 2026-05-29 | 2026-06-05 | pending |
