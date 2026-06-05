@@ -26,7 +26,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Permutations (#46) | Backtracking | permutation_generation | 2026-05-24 | 2026-05-28 | done |
 | Combinations (#77) | Backtracking | combination_generation | 2026-05-23 | 2026-05-25 | done |
 | Combinations (#77) | Backtracking | combination_generation | 2026-05-25 | 2026-05-30 | done |
-| Combinations (#77) | Backtracking | combination_generation | 2026-05-30 | 2026-06-04 | pending |
+| Combinations (#77) | Backtracking | combination_generation | 2026-05-30 | 2026-06-04 | done |
+| Combinations (#77) | Backtracking | combination_generation | 2026-06-04 | 2026-06-08 | pending |
 | Validate BST (#98) | Trees | bst_operations | 2026-05-23 | 2026-05-26 | done |
 | Climbing Stairs (#70) | DynamicProgramming | linear_dp | 2026-05-23 | 2026-05-26 | done |
 | Climbing Stairs (#70) | DynamicProgramming | linear_dp | 2026-05-26 | 2026-05-30 | done |
@@ -44,13 +45,17 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Maximum Subarray (#53) | DynamicProgramming | linear_dp | 2026-05-29 | 2026-06-05 | pending |
 | House Robber II (#213) | DynamicProgramming | linear_dp | 2026-05-27 | 2026-05-30 | done |
 | House Robber II (#213) | DynamicProgramming | linear_dp | 2026-05-30 | 2026-06-09 | pending |
-| Insert Interval (#57) | Greedy | interval_merge | 2026-05-31 | 2026-06-04 | pending |
+| Insert Interval (#57) | Greedy | interval_merge | 2026-05-31 | 2026-06-04 | done |
+| Insert Interval (#57) | Greedy | interval_merge | 2026-06-04 | 2026-06-11 | pending |
 | Non-overlapping Intervals (#435) | Greedy | interval_scheduling | 2026-05-31 | 2026-06-05 | pending |
-| Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-06-01 | 2026-06-04 | pending |
+| Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-06-01 | 2026-06-04 | done |
+| Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-06-04 | 2026-06-08 | pending |
 | Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-06-02 | 2026-06-06 | pending |
 | Word Search (#79) | Backtracking | grid_backtracking | 2026-06-03 | 2026-06-07 | pending |
 | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-06-03 | 2026-06-07 | pending |
 | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-06-03 | 2026-06-06 | pending |
+| 3Sum (#15) | TwoPointers | three_sum | 2026-06-04 | 2026-06-08 | pending |
+| Container With Most Water (#11) | TwoPointers | container | 2026-06-04 | 2026-06-09 | pending |
 | Delete and Earn (#740) | DynamicProgramming | linear_dp | 2026-05-27 | 2026-05-30 | done |
 | Delete and Earn (#740) | DynamicProgramming | linear_dp | 2026-05-30 | 2026-06-06 | pending |
 | Sort an Array (#912) | DivideAndConquer | merge_sort | 2026-05-29 | 2026-06-01 | done |

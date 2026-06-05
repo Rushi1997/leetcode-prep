@@ -7,7 +7,7 @@ Catching back up on DSA patterns after a few years. Solving problems on LeetCode
 | Category | Done | Total | Patterns Touched |
 |----------|------|-------|-----------------|
 | Hashing | 7 | 107 | set_lookup, two_sum_pair, frequency_counting, grouping_by_key |
-| TwoPointers | 6 | 107 | palindrome_check, in_place_array_modification, opposite_ends_pair_sum, partition |
+| TwoPointers | 8 | 107 | palindrome_check, in_place_array_modification, opposite_ends_pair_sum, partition, three_sum, container |
 | Stack | 4 | 100 | bracket_matching, stack_as_queue, monotonic_stack |
 | BinarySearch | 5 | 162 | classic_binary_search, rotated_sorted_search, binary_search_on_answer |
 | LinkedList | 4 | 53 | reversal, fast_slow_pointers, merge_lists |
@@ -28,7 +28,7 @@ Catching back up on DSA patterns after a few years. Solving problems on LeetCode
 | DivideAndConquer | 1 | 24 | merge_sort |
 | SegmentTree | 0 | 25 | |
 
-**Total: 74 / 2733**
+**Total: 76 / 2733**
 
 ## Key Files
 

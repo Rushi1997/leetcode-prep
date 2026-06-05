@@ -717,5 +717,29 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-06-04 — Day 29
+
+**Problems solved: 2, Reviews: 3**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Combinations (#77) | Backtracking | combination_generation | — | review done, retry 06-08 |
+| R | Insert Interval (#57) | Greedy | interval_merge | — | review done, retry 06-11 |
+| R | Task Scheduler (#621) | Greedy | cooldown_scheduling | — | review done, retry 06-08 |
+| 75 | 3Sum (#15) | TwoPointers | three_sum | 6/10 | YES — redo 06-08 |
+| 76 | Container With Most Water (#11) | TwoPointers | container | 5/10 | YES — redo 06-09 |
+
+**Bugs during reviews:**
+- Combinations: still off-by-one with starting index — `range(index, n+1)` not `range(index+1, n+1)` when starting from 1
+- Task Scheduler: `and` instead of `or` in while loop, forgot heap arg in heappop
+
+**Patterns learned:**
+- 3Sum: sort, fix one element, two pointers for remaining pair. Skip duplicates with `if i > 0 and nums[i] == nums[i-1]: continue`
+- Use set of tuples for dedup: `results.add((a, b, c))`
+- Container With Most Water: two pointers from ends, move the shorter side inward
+- Area = `min(height[left], height[right]) * (right - left)` — gap between walls, not inclusive
+
+---
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11
