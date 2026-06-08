@@ -759,5 +759,24 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-06-07 — Day 31
+
+**Reviews: 6**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Delete and Earn (#740) | DynamicProgramming | linear_dp | — | review done, retry 06-25 |
+| R | Find Median from Data Stream (#295) | Heap | two_heaps_median | — | review done, retry 06-14 |
+| R | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | — | review done, retry 06-21 |
+| R | Subsets (#78) | Backtracking | subset_enumeration | — | review done, retry 06-25 |
+| R | Permutations (#46) | Backtracking | permutation_generation | — | review done, retry 06-25 |
+| R | House Robber (#198) | DynamicProgramming | linear_dp | — | review done, retry 06-25 |
+
+**Bugs during reviews:**
+- Find Median: forgot ordering check (max heap top must be ≤ min heap top), forgot rebalance when min > max
+- Koko: swapped the left/right pointer moves — "works" should move right, "too slow" should move left
+
+---
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11
