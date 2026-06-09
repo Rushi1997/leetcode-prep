@@ -778,5 +778,23 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-06-08 — Day 32
+
+**Reviews: 6**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Coin Change (#322) | DynamicProgramming | knapsack | — | review done, retry 06-25 |
+| R | Word Search (#79) | Backtracking | grid_backtracking | — | review done, retry 06-18 |
+| R | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | — | review done, retry 06-12 |
+| R | Combinations (#77) | Backtracking | combination_generation | — | review done, retry 06-22 |
+| R | Climbing Stairs (#70) | DynamicProgramming | linear_dp | — | review done, retired |
+
+**Bugs during reviews:**
+- Word Search: forgot to backtrack (remove from visited), forgot to put index check before bounds check
+- Climbing Stairs: used `min` instead of `+` — counting ways, not optimizing cost
+
+---
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11
