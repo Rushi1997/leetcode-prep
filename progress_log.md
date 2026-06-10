@@ -796,5 +796,22 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-06-09 — Day 33
+
+**Reviews: 4**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Min Cost Climbing Stairs (#746) | DynamicProgramming | linear_dp | — | review done, retry 06-23 |
+| R | Task Scheduler (#621) | Greedy | cooldown_scheduling | — | review done, retry 06-23 |
+| R | House Robber II (#213) | DynamicProgramming | linear_dp | — | review done, retry 06-24 |
+| R | Container With Most Water (#11) | TwoPointers | container | — | review done, retry 06-24 |
+
+**Bugs during reviews:**
+- Min Cost Climbing Stairs: `dp[1] = min(cost[0], cost[1])` should be `cost[1]`; forgot `min` of last two at return
+- Task Scheduler: used `heap[-1]` (peek last) instead of `heapq.heappop(heap)`; missing empty-queue guard
+
+---
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11
