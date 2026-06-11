@@ -90,7 +90,7 @@
 | 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations/) | Medium | 3/10 | 81.5% | [ ] |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number/) | Easy | 3/10 | 59.6% | [ ] |
 | 822 | [Card Flipping Game](https://leetcode.com/problems/card-flipping-game/) | Medium | 4/10 | 50.3% | [ ] |
-| 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Medium | 5/10 | 47.1% | [ ] |
+| 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Medium | 5/10 | 47.1% | [x] |
 | 2306 | [Naming a Company](https://leetcode.com/problems/naming-a-company/) | Hard | 7/10 | 46.5% | [ ] |
 
 ## bijective_mapping

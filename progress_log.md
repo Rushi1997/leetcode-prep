@@ -815,18 +815,22 @@ Daily journal of problems solved, learnings, and next steps.
 
 ## 2026-06-10 — Day 34
 
-**Problems solved: 1, Reviews: 1**
+**Problems solved: 2, Reviews: 1**
 
 | # | Problem | Category | Pattern | Score | Review? |
 |---|---------|----------|---------|-------|---------|
 | R | 3Sum (#15) | TwoPointers | three_sum | — | review done, retry 06-26 |
 | 77 | Product of Array Except Self (#238) | Arrays | prefix_suffix_products | 5/10 | YES — redo 06-15 |
+| 78 | Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | 5/10 | YES — redo 06-15 |
 
 **Patterns learned:**
 - Product except self: prefix pass fills `result[i]` with left product, suffix pass multiplies in right product
 - `result[i]` should NOT include `nums[i]` — assign the running product BEFORE multiplying in `nums[i]`
 - Reuse output array as left-product storage → O(1) extra space
 - Right-to-left loop: `range(len(nums) - 1, -1, -1)`
+- Longest consecutive: put all in set, only start counting from sequence-starts (`num - 1` not in set) → O(n)
+- Iterate over the SET, not the list — duplicates in the list re-run the full scan and cause TLE
+- You can iterate a set directly: `for x in mySet` (no guaranteed order)
 
 ---
 
