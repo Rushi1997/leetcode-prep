@@ -352,7 +352,7 @@
 | 304 | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) | Medium | 4/10 | 58.2% | [ ] |
 | 3546 | [Equal Sum Grid Partition I](https://leetcode.com/problems/equal-sum-grid-partition-i/) | Medium | 4/10 | 52.8% | [ ] |
 | 3212 | [Count Submatrices With Equal Frequency of X and Y](https://leetcode.com/problems/count-submatrices-with-equal-frequency-of-x-and-y/) | Medium | 5/10 | 69.6% | [ ] |
-| 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | 5/10 | 68.9% | [ ] |
+| 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | 5/10 | 68.9% | [x] |
 | 1525 | [Number of Good Ways to Split a String](https://leetcode.com/problems/number-of-good-ways-to-split-a-string/) | Medium | 5/10 | 68.4% | [ ] |
 | 3147 | [Taking Maximum Energy From the Mystic Dungeon](https://leetcode.com/problems/taking-maximum-energy-from-the-mystic-dungeon/) | Medium | 5/10 | 61.0% | [ ] |
 | 2017 | [Grid Game](https://leetcode.com/problems/grid-game/) | Medium | 5/10 | 60.9% | [ ] |

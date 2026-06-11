@@ -70,7 +70,9 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-06-08 | 2026-06-12 | pending |
 | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-06-03 | 2026-06-07 | done |
 | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-06-07 | 2026-06-21 | pending |
-| 3Sum (#15) | TwoPointers | three_sum | 2026-06-04 | 2026-06-11 | pending |
+| 3Sum (#15) | TwoPointers | three_sum | 2026-06-04 | 2026-06-11 | done |
+| 3Sum (#15) | TwoPointers | three_sum | 2026-06-10 | 2026-06-26 | pending |
+| Product of Array Except Self (#238) | Arrays | prefix_suffix_products | 2026-06-10 | 2026-06-15 | pending |
 | Container With Most Water (#11) | TwoPointers | container | 2026-06-04 | 2026-06-09 | done |
 | Container With Most Water (#11) | TwoPointers | container | 2026-06-10 | 2026-06-24 | pending |
 | Delete and Earn (#740) | DynamicProgramming | linear_dp | 2026-05-27 | 2026-05-30 | done |
