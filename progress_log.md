@@ -842,12 +842,13 @@ Daily journal of problems solved, learnings, and next steps.
 
 ## 2026-06-11 — Day 35
 
-**Problems solved: 1, Reviews: 1**
+**Problems solved: 2, Reviews: 1**
 
 | # | Problem | Category | Pattern | Score | Review? |
 |---|---------|----------|---------|-------|---------|
 | R | Insert Interval (#57) | Greedy | interval_merge | — | review done, retry 06-25 |
 | 81 | Longest Palindromic Substring (#5) | String | expand_around_center | 6/10 | YES — redo 06-16 |
+| 82 | Palindromic Substrings (#647) | DynamicProgramming | expand_around_center | 4/10 | YES — redo 06-17 |
 
 **Patterns learned:**
 - Longest palindrome: expand around center — O(n²), the expected answer (not O(n))
@@ -855,6 +856,9 @@ Daily journal of problems solved, learnings, and next steps.
 - Brute force is O(n³); expand-around-center IS the optimization
 - `max(a, b, c, key=len)` — compare by length instead of value; works on min/sorted too
 - Each expansion step's substring is guaranteed a palindrome (inner already matched)
+- Palindromic Substrings: same expand-around-center, but COUNT each match instead of tracking longest
+- Count by position, not content — `"aaa"` has 6 palindromes, not 3 (no set/dedup)
+- Reused the exact same helper structure — just `count += 1` instead of `max(..., key=len)`
 
 **Bug during review:**
 - Insert Interval: second condition backwards (`newInterval[1] > interval[0]` should be `<`); overlap-case used both starts for max instead of ends

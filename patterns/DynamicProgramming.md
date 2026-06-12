@@ -552,7 +552,7 @@
 
 | # | Problem | Difficulty | Score | Acceptance | Status |
 |---|---------|------------|-------|------------|--------|
-| 647 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | Medium | 4/10 | 72.8% | [ ] |
+| 647 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | Medium | 4/10 | 72.8% | [x] |
 | 516 | [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) | Medium | 5/10 | 65.3% | [ ] |
 | 1039 | [Minimum Score Triangulation of Polygon](https://leetcode.com/problems/minimum-score-triangulation-of-polygon/) | Medium | 6/10 | 67.4% | [ ] |
 | 1682 | [Longest Palindromic Subsequence II](https://leetcode.com/problems/longest-palindromic-subsequence-ii/) :lock: | Medium | 6/10 | 50.3% | [ ] |

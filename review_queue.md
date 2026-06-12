@@ -77,6 +77,7 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | 2026-06-10 | 2026-06-15 | pending |
 | Group Anagrams (#49) | Hashing | grouping_by_key | 2026-06-10 | 2026-06-28 | pending |
 | Longest Palindromic Substring (#5) | String | expand_around_center | 2026-06-11 | 2026-06-16 | pending |
+| Palindromic Substrings (#647) | DynamicProgramming | expand_around_center | 2026-06-11 | 2026-06-17 | pending |
 | Container With Most Water (#11) | TwoPointers | container | 2026-06-04 | 2026-06-09 | done |
 | Container With Most Water (#11) | TwoPointers | container | 2026-06-10 | 2026-06-24 | pending |
 | Delete and Earn (#740) | DynamicProgramming | linear_dp | 2026-05-27 | 2026-05-30 | done |
