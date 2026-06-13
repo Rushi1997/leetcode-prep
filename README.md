@@ -7,7 +7,7 @@ Catching back up on DSA patterns after a few years. Solving problems on LeetCode
 | Category | Done | Total | Patterns Touched |
 |----------|------|-------|-----------------|
 | Hashing | 10 | 107 | set_lookup, two_sum_pair, frequency_counting, grouping_by_key, consecutive_sequence |
-| TwoPointers | 8 | 107 | palindrome_check, in_place_array_modification, opposite_ends_pair_sum, partition, three_sum, container |
+| TwoPointers | 9 | 107 | palindrome_check, in_place_array_modification, opposite_ends_pair_sum, partition, three_sum, container |
 | Stack | 4 | 100 | bracket_matching, stack_as_queue, monotonic_stack |
 | BinarySearch | 5 | 162 | classic_binary_search, rotated_sorted_search, binary_search_on_answer |
 | LinkedList | 4 | 53 | reversal, fast_slow_pointers, merge_lists |
@@ -21,14 +21,14 @@ Catching back up on DSA patterns after a few years. Solving problems on LeetCode
 | Heap | 6 | 66 | top_k_elements, top_k_frequent, simulation_heap, design_priority_queue, two_heaps_median |
 | String | 1 | 124 | expand_around_center |
 | Math | 0 | 129 | |
-| BitManipulation | 0 | 131 | |
+| BitManipulation | 2 | 131 | xor_cancellation, bit_counting |
 | Design | 1 | 83 | stack_as_queue |
 | Trie | 1 | 43 | prefix_tree |
 | UnionFind | 0 | 51 | |
 | DivideAndConquer | 1 | 24 | merge_sort |
 | SegmentTree | 0 | 25 | |
 
-**Total: 82 / 2733**
+**Total: 85 / 2733**
 
 ## Key Files
 

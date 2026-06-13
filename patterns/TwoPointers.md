@@ -115,7 +115,7 @@
 | 2562 | [Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/) | Easy | 2/10 | 72.0% | [ ] |
 | 1099 | [Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/) :lock: | Easy | 2/10 | 62.1% | [ ] |
 | 2465 | [Number of Distinct Averages](https://leetcode.com/problems/number-of-distinct-averages/) | Easy | 2/10 | 58.9% | [ ] |
-| 167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Medium | 3/10 | 65.0% | [ ] |
+| 167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Medium | 3/10 | 65.0% | [x] |
 | 1237 | [Find Positive Integer Solution for a Given Equation](https://leetcode.com/problems/find-positive-integer-solution-for-a-given-equation/) | Medium | 4/10 | 70.0% | [ ] |
 | 1679 | [Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/) | Medium | 4/10 | 57.0% | [ ] |
 | 633 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | Medium | 4/10 | 36.8% | [ ] |

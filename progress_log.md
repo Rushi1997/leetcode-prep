@@ -865,5 +865,30 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-06-12 — Day 36
+
+**Problems solved: 3, Reviews: 1**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | — | review done, retry 06-26 |
+| 83 | Two Sum II (#167) | TwoPointers | opposite_ends_pair_sum | 3/10 | no |
+| 84 | Single Number (#136) | BitManipulation | xor_cancellation | 1/10 | YES — redo 06-19 |
+| 85 | Number of 1 Bits (#191) | BitManipulation | bit_counting | 1/10 | YES — redo 06-19 |
+
+**Python / bit learned:**
+- XOR is `^`, AND is `&`, right-shift is `>>`
+- XOR properties: `a ^ a = 0`, `a ^ 0 = a`, order doesn't matter
+- XOR works on any integers — operates bit-by-bit on the binary form
+- `n & 1` isolates the last bit (since `1` is `000...001`)
+- `n >> 1` drops the last bit; loop `while n > 0` to walk all bits
+
+**Patterns learned:**
+- Single Number: XOR all elements — pairs cancel to 0, lone number remains
+- Number of 1 Bits: check `n & 1`, add to count, `n >>= 1`, repeat until 0
+- Two Sum II (sorted): two pointers from ends — sum too big move right, too small move left
+
+---
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11

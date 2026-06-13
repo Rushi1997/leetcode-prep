@@ -28,7 +28,7 @@
 | 1342 | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | Easy | 1/10 | 85.8% | [ ] |
 | 3688 | [Bitwise OR of Even Numbers in an Array](https://leetcode.com/problems/bitwise-or-of-even-numbers-in-an-array/) | Easy | 1/10 | 85.0% | [ ] |
 | 1356 | [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/) | Easy | 1/10 | 82.3% | [ ] |
-| 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | 1/10 | 76.8% | [ ] |
+| 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | 1/10 | 76.8% | [x] |
 | 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | Easy | 1/10 | 76.8% | [ ] |
 | 2595 | [Number of Even and Odd Bits](https://leetcode.com/problems/number-of-even-and-odd-bits/) | Easy | 1/10 | 73.4% | [ ] |
 | 2980 | [Check if Bitwise OR Has Trailing Zeros](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/) | Easy | 1/10 | 71.3% | [ ] |
@@ -76,7 +76,7 @@
 |---|---------|------------|-------|------------|--------|
 | 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/) | Easy | 1/10 | 87.6% | [ ] |
 | 3158 | [Find the XOR of Numbers Which Appear Twice](https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/) | Easy | 1/10 | 78.9% | [ ] |
-| 136 | [Single Number](https://leetcode.com/problems/single-number/) | Easy | 1/10 | 77.6% | [ ] |
+| 136 | [Single Number](https://leetcode.com/problems/single-number/) | Easy | 1/10 | 77.6% | [x] |
 | 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | Easy | 1/10 | 60.3% | [ ] |
 | 2932 | [Maximum Strong Pair XOR I](https://leetcode.com/problems/maximum-strong-pair-xor-i/) | Easy | 2/10 | 76.0% | [ ] |
 | 1863 | [Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) | Easy | 3/10 | 90.1% | [ ] |
