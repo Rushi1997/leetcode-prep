@@ -69,7 +69,7 @@
 | 91 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | Medium | 5/10 | 37.9% | [ ] |
 | 2786 | [Visit Array Positions to Maximize Score](https://leetcode.com/problems/visit-array-positions-to-maximize-score/) | Medium | 5/10 | 37.6% | [ ] |
 | 418 | [Sentence Screen Fitting](https://leetcode.com/problems/sentence-screen-fitting/) :lock: | Medium | 5/10 | 36.4% | [ ] |
-| 152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | Medium | 5/10 | 36.3% | [ ] |
+| 152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | Medium | 5/10 | 36.3% | [x] |
 | 2919 | [Minimum Increment Operations to Make Array Beautiful](https://leetcode.com/problems/minimum-increment-operations-to-make-array-beautiful/) | Medium | 5/10 | 34.8% | [ ] |
 | 3628 | [Maximum Number of Subsequences After One Inserting](https://leetcode.com/problems/maximum-number-of-subsequences-after-one-inserting/) | Medium | 5/10 | 31.9% | [ ] |
 | 2771 | [Longest Non-decreasing Subarray From Two Arrays](https://leetcode.com/problems/longest-non-decreasing-subarray-from-two-arrays/) | Medium | 5/10 | 31.2% | [ ] |

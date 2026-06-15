@@ -66,6 +66,9 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-06-02 | 2026-06-07 | done |
 | Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-06-07 | 2026-06-14 | done |
 | Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-06-13 | 2026-06-28 | pending |
+| Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | 2026-06-14 | 2026-06-19 | pending |
+| Maximum Product Subarray (#152) | DynamicProgramming | multi_state_dp | 2026-06-14 | 2026-06-18 | pending |
+| Min Stack (#155) | Stack | min_stack | 2026-06-14 | 2026-06-20 | pending |
 | Word Search (#79) | Backtracking | grid_backtracking | 2026-06-03 | 2026-06-08 | done |
 | Word Search (#79) | Backtracking | grid_backtracking | 2026-06-08 | 2026-06-18 | pending |
 | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-06-03 | 2026-06-08 | done |

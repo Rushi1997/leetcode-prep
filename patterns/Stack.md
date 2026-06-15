@@ -20,7 +20,7 @@
 
 | # | Problem | Difficulty | Score | Acceptance | Status |
 |---|---------|------------|-------|------------|--------|
-| 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | Medium | 3/10 | 58.1% | [ ] |
+| 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | Medium | 3/10 | 58.1% | [x] |
 
 ## stack_simulation
 

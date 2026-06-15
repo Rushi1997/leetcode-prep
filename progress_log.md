@@ -909,5 +909,24 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-06-14 — Day 38
+
+**Problems solved: 3**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| 87 | Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | 6/10 | YES — redo 06-19 |
+| 88 | Maximum Product Subarray (#152) | DynamicProgramming | multi_state_dp | 5/10 | YES — redo 06-18 |
+| 89 | Min Stack (#155) | Stack | min_stack | 3/10 | YES — redo 06-20 |
+
+**Patterns learned:**
+- Find the Duplicate: treat values as pointers (index → nums[index]), the duplicate is the cycle entrance
+- Floyd's cycle detection: phase 1 slow+1/fast+2 until they meet; phase 2 reset one to start, both +1, meet at entrance
+- Max Product Subarray: track BOTH max and min product ending here — negatives flip min↔max
+- `maxDp[i] = max(nums[i], nums[i]*maxDp[i-1], nums[i]*minDp[i-1])`, minDp mirrors with min
+- Min Stack: second stack stores running min; push `min(val, minStack[-1])`, pop both in sync → O(1) getMin
+
+---
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11

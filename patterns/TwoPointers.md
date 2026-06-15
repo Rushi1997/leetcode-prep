@@ -363,7 +363,7 @@
 
 | # | Problem | Difficulty | Score | Acceptance | Status |
 |---|---------|------------|-------|------------|--------|
-| 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | Medium | 6/10 | 64.3% | [ ] |
+| 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | Medium | 6/10 | 64.3% | [x] |
 | 457 | [Circular Array Loop](https://leetcode.com/problems/circular-array-loop/) | Medium | 7/10 | 37.3% | [ ] |
 
 ## opposite_ends_optimization
