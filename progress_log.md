@@ -928,5 +928,28 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-06-15 — Day 39
+
+**Problems solved: 1, Reviews: 2**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Product of Array Except Self (#238) | Arrays | prefix_suffix_products | — | review done, retry 06-29 |
+| R | Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | — | review done, retry 06-29 |
+| 90 | Number of Provinces (#547) | UnionFind | connected_components | 3/10 | YES — redo 06-19 |
+
+**Patterns learned (Union-Find — new data structure):**
+- `parent` array: each node points to a parent; the root points to itself (`parent[x] == x`)
+- `find(x)`: climb the parent chain until you hit the root
+- `union(a, b)`: find both roots; if different, point one root at the other
+- Direction of union doesn't matter for correctness (only for rank/size optimization)
+- Count components: count distinct `find(i)` over all nodes — NOT `set(parents)` (intermediate parents aren't always roots)
+- For an adjacency matrix, nested loop `(i, j)` and union where `isConnected[i][j] == 1`
+
+**Recurring bug:**
+- Longest Consecutive Sequence (2nd time): iterate over the SET, not the list — duplicates re-run the scan → TLE
+
+---
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11

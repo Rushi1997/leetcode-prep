@@ -22,7 +22,7 @@
 |---|---------|------------|-------|------------|--------|
 | 323 | [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) :lock: | Medium | 2/10 | 64.9% | [ ] |
 | 2782 | [Number of Unique Categories](https://leetcode.com/problems/number-of-unique-categories/) :lock: | Medium | 3/10 | 83.7% | [ ] |
-| 547 | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | Medium | 3/10 | 70.3% | [ ] |
+| 547 | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | Medium | 3/10 | 70.3% | [x] |
 | 1101 | [The Earliest Moment When Everyone Become Friends](https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends/) :lock: | Medium | 3/10 | 66.0% | [ ] |
 | 261 | [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) :lock: | Medium | 3/10 | 50.0% | [ ] |
 | 1319 | [Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/) | Medium | 4/10 | 66.5% | [ ] |

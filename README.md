@@ -24,11 +24,11 @@ Catching back up on DSA patterns after a few years. Solving problems on LeetCode
 | BitManipulation | 2 | 131 | xor_cancellation, bit_counting |
 | Design | 1 | 83 | stack_as_queue |
 | Trie | 1 | 43 | prefix_tree |
-| UnionFind | 0 | 51 | |
+| UnionFind | 1 | 51 | connected_components |
 | DivideAndConquer | 1 | 24 | merge_sort |
 | SegmentTree | 0 | 25 | |
 
-**Total: 89 / 2733**
+**Total: 90 / 2733**
 
 ## Key Files
 
