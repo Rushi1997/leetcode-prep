@@ -958,5 +958,23 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-06-16 — Day 40
+
+**Reviews: 3**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Non-overlapping Intervals (#435) | Greedy | interval_scheduling | — | review done, retry 06-30 |
+| R | Longest Palindromic Substring (#5) | String | expand_around_center | — | review done, retry 06-30 |
+| R | Sort an Array (#912) | DivideAndConquer | merge_sort | — | review done, retry 07-01 |
+
+**Bug during review (Longest Palindromic Substring):**
+- Overcomplicated expand: nested bound-check caused infinite loop; `l+=1; l-=1` typo (should be `r-=1`); forgot `result` in the outer `max`
+- Clean version: `expand(s, l, r)` — `while l>=0 and r<len and s[l]==s[r]: l-=1; r+=1`, return `s[l+1:r]`
+- Realized the old length-tracking version seeded `result = s[index]`; the substring version is cleaner with the standalone expand
+- Odd center `expand(s, i, i)` (or equivalently `(i-1, i+1)`), even center `expand(s, i, i+1)`
+
+---
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11

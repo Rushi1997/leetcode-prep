@@ -59,7 +59,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Insert Interval (#57) | Greedy | interval_merge | 2026-06-04 | 2026-06-11 | done |
 | Insert Interval (#57) | Greedy | interval_merge | 2026-06-11 | 2026-06-25 | pending |
 | Non-overlapping Intervals (#435) | Greedy | interval_scheduling | 2026-05-31 | 2026-06-05 | done |
-| Non-overlapping Intervals (#435) | Greedy | interval_scheduling | 2026-06-06 | 2026-06-16 | pending |
+| Non-overlapping Intervals (#435) | Greedy | interval_scheduling | 2026-06-06 | 2026-06-16 | done |
+| Non-overlapping Intervals (#435) | Greedy | interval_scheduling | 2026-06-16 | 2026-06-30 | pending |
 | Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-06-01 | 2026-06-04 | done |
 | Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-06-04 | 2026-06-09 | done |
 | Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-06-09 | 2026-06-23 | pending |
@@ -87,7 +88,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | 2026-06-10 | 2026-06-15 | done |
 | Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | 2026-06-15 | 2026-06-29 | pending |
 | Group Anagrams (#49) | Hashing | grouping_by_key | 2026-06-10 | 2026-06-28 | pending |
-| Longest Palindromic Substring (#5) | String | expand_around_center | 2026-06-11 | 2026-06-16 | pending |
+| Longest Palindromic Substring (#5) | String | expand_around_center | 2026-06-11 | 2026-06-16 | done |
+| Longest Palindromic Substring (#5) | String | expand_around_center | 2026-06-16 | 2026-06-30 | pending |
 | Palindromic Substrings (#647) | DynamicProgramming | expand_around_center | 2026-06-11 | 2026-06-17 | pending |
 | Container With Most Water (#11) | TwoPointers | container | 2026-06-04 | 2026-06-09 | done |
 | Container With Most Water (#11) | TwoPointers | container | 2026-06-10 | 2026-06-24 | pending |
@@ -95,6 +97,7 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Delete and Earn (#740) | DynamicProgramming | linear_dp | 2026-05-30 | 2026-06-07 | done |
 | Delete and Earn (#740) | DynamicProgramming | linear_dp | 2026-06-07 | 2026-06-25 | pending |
 | Sort an Array (#912) | DivideAndConquer | merge_sort | 2026-05-29 | 2026-06-01 | done |
-| Sort an Array (#912) | DivideAndConquer | merge_sort | 2026-06-01 | 2026-06-16 | pending |
+| Sort an Array (#912) | DivideAndConquer | merge_sort | 2026-06-01 | 2026-06-16 | done |
+| Sort an Array (#912) | DivideAndConquer | merge_sort | 2026-06-16 | 2026-07-01 | pending |
 | Merge Intervals (#56) | Greedy | interval_merge | 2026-05-29 | 2026-06-05 | done |
 | Merge Intervals (#56) | Greedy | interval_merge | 2026-06-06 | 2026-06-20 | pending |
