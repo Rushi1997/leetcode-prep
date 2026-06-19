@@ -211,7 +211,7 @@
 | 1765 | [Map of Highest Peak](https://leetcode.com/problems/map-of-highest-peak/) | Medium | 4/10 | 75.8% | [ ] |
 | 286 | [Walls and Gates](https://leetcode.com/problems/walls-and-gates/) :lock: | Medium | 4/10 | 64.0% | [ ] |
 | 3243 | [Shortest Distance After Road Addition Queries I](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i/) | Medium | 4/10 | 61.9% | [ ] |
-| 994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | Medium | 4/10 | 58.6% | [ ] |
+| 994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | Medium | 4/10 | 58.6% | [x] |
 | 3015 | [Count the Number of Houses at a Certain Distance I](https://leetcode.com/problems/count-the-number-of-houses-at-a-certain-distance-i/) | Medium | 4/10 | 57.6% | [ ] |
 | 1730 | [Shortest Path to Get Food](https://leetcode.com/problems/shortest-path-to-get-food/) :lock: | Medium | 4/10 | 57.2% | [ ] |
 | 433 | [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/) | Medium | 4/10 | 56.6% | [ ] |

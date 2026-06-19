@@ -1003,16 +1003,25 @@ Daily journal of problems solved, learnings, and next steps.
 
 ## 2026-06-19 — Day 42
 
-**Reviews: 2**
+**Problems solved: 1, Reviews: 2**
 
 | # | Problem | Category | Pattern | Score | Review? |
 |---|---------|----------|---------|-------|---------|
 | R | Number of Provinces (#547) | UnionFind | connected_components | — | review done, retry 06-29 |
 | R | Number of 1 Bits (#191) | BitManipulation | bit_counting | — | review done, retry 07-07 |
+| 92 | Rotting Oranges (#994) | Graphs | multi_source_bfs | 4/10 | YES — redo 06-24 |
 
 **Bug during review (Number of Provinces):**
 - union linked nodes not roots: `parent[i] = j` should be `parent[parent_i] = parent_j` — this corrupts connectivity (showed a 3-node example where a node ends up split off)
 - counting: must count distinct `find(i)`, not `set(parent)` (stored parents can be intermediate nodes)
+
+**Patterns learned (Rotting Oranges — multi-source BFS):**
+- Seed the queue with ALL rotten oranges at once (multi-source), then BFS level by level
+- Process one full level per minute: `for _ in range(len(q))` pops exactly the current generation
+- Track `fresh` count; loop `while q and fresh > 0`, `fresh -= 1` on each rot → return `time` (no `-1`)
+- Bug fixed: `range(-1,2,2)` nested gives DIAGONALS — use explicit `[(1,0),(0,1),(-1,0),(0,-1)]` for orthogonal
+- `time - 1` hack works but breaks on `[[0]]` (no oranges) → the `while q and fresh>0` guard is cleaner
+- Chained comparison `0 <= nr < len(grid)` is cleaner than two `and` checks
 
 ---
 
