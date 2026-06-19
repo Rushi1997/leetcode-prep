@@ -85,7 +85,7 @@
 | 1381 | [Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/) | Medium | 4/10 | 79.9% | [ ] |
 | 2408 | [Design SQL](https://leetcode.com/problems/design-sql/) :lock: | Medium | 4/10 | 64.4% | [ ] |
 | 2241 | [Design an ATM Machine](https://leetcode.com/problems/design-an-atm-machine/) | Medium | 4/10 | 45.0% | [ ] |
-| 707 | [Design Linked List](https://leetcode.com/problems/design-linked-list/) | Medium | 5/10 | 30.2% | [ ] |
+| 707 | [Design Linked List](https://leetcode.com/problems/design-linked-list/) | Medium | 5/10 | 30.2% | [x] |
 | 2296 | [Design a Text Editor](https://leetcode.com/problems/design-a-text-editor/) | Hard | 7/10 | 50.5% | [ ] |
 
 ## iterator_design

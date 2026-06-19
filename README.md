@@ -22,13 +22,13 @@ Catching back up on DSA patterns after a few years. Solving problems on LeetCode
 | String | 1 | 124 | expand_around_center |
 | Math | 0 | 129 | |
 | BitManipulation | 2 | 131 | xor_cancellation, bit_counting |
-| Design | 1 | 83 | stack_as_queue |
+| Design | 2 | 83 | stack_as_queue, doubly_linked_list |
 | Trie | 1 | 43 | prefix_tree |
 | UnionFind | 2 | 51 | connected_components, cycle_detection |
 | DivideAndConquer | 1 | 24 | merge_sort |
 | SegmentTree | 0 | 25 | |
 
-**Total: 92 / 2733**
+**Total: 93 / 2733**
 
 ## Key Files
 

@@ -1003,13 +1003,14 @@ Daily journal of problems solved, learnings, and next steps.
 
 ## 2026-06-19 — Day 42
 
-**Problems solved: 1, Reviews: 2**
+**Problems solved: 2, Reviews: 2**
 
 | # | Problem | Category | Pattern | Score | Review? |
 |---|---------|----------|---------|-------|---------|
 | R | Number of Provinces (#547) | UnionFind | connected_components | — | review done, retry 06-29 |
 | R | Number of 1 Bits (#191) | BitManipulation | bit_counting | — | review done, retry 07-07 |
 | 92 | Rotting Oranges (#994) | Graphs | multi_source_bfs | 4/10 | YES — redo 06-24 |
+| 93 | Design Linked List (#707) | Design | doubly_linked_list | 5/10 | YES — redo 06-23 (do a few times) |
 
 **Bug during review (Number of Provinces):**
 - union linked nodes not roots: `parent[i] = j` should be `parent[parent_i] = parent_j` — this corrupts connectivity (showed a 3-node example where a node ends up split off)
@@ -1022,6 +1023,16 @@ Daily journal of problems solved, learnings, and next steps.
 - Bug fixed: `range(-1,2,2)` nested gives DIAGONALS — use explicit `[(1,0),(0,1),(-1,0),(0,-1)]` for orthogonal
 - `time - 1` hack works but breaks on `[[0]]` (no oranges) → the `while q and fresh>0` guard is cleaner
 - Chained comparison `0 <= nr < len(grid)` is cleaner than two `and` checks
+
+**Patterns learned (Design Linked List — doubly linked list, LRU prep):**
+- Dummy head + tail bookends → no None edge cases; first real node is `head.next`, last is `tail.prev`
+- Maintain `self.size` for O(1) bounds checks
+- ALWAYS splice with a 4-pointer helper `addInBetween(n1, n2, new)` — manual wiring drops a pointer
+- Hand-wired adds bug: set only 3 of 4 pointers, leaving `newNode.prev`/`newNode.next` dangling None → crash on later delete
+- `addAtIndex` guard is `index > size` (== size is a valid append); get/delete guard `index >= size`
+- Stopped before LRU Cache to warm up on the DLL pointer mechanics first
+
+- NOTE: Pow(x, n) #50 (Day 40) isn't in the 2733 dataset → tracked only in the log/review queue, excluded from the README total
 
 ---
 
