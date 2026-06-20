@@ -17,7 +17,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Course Schedule (#207) | Graphs | topological_sort | 2026-05-22 | 2026-05-26 | done |
 | Course Schedule (#207) | Graphs | topological_sort | 2026-05-26 | 2026-05-30 | done |
 | Course Schedule (#207) | Graphs | topological_sort | 2026-05-30 | 2026-06-05 | done |
-| Course Schedule (#207) | Graphs | topological_sort | 2026-06-06 | 2026-06-20 | pending |
+| Course Schedule (#207) | Graphs | topological_sort | 2026-06-06 | 2026-06-20 | done |
+| Course Schedule (#207) | Graphs | topological_sort | 2026-06-20 | 2026-07-10 | pending |
 | Course Schedule II (#210) | Graphs | topological_sort | 2026-05-22 | 2026-05-26 | done |
 | Course Schedule II (#210) | Graphs | topological_sort | 2026-05-26 | 2026-05-30 | done |
 | Course Schedule II (#210) | Graphs | topological_sort | 2026-05-30 | 2026-06-05 | done |
@@ -51,7 +52,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Coin Change (#322) | DynamicProgramming | knapsack | 2026-06-08 | 2026-06-25 | pending |
 | Maximum Subarray (#53) | DynamicProgramming | linear_dp | 2026-05-26 | 2026-05-29 | done |
 | Maximum Subarray (#53) | DynamicProgramming | linear_dp | 2026-05-29 | 2026-06-05 | done |
-| Maximum Subarray (#53) | DynamicProgramming | linear_dp | 2026-06-06 | 2026-06-20 | pending |
+| Maximum Subarray (#53) | DynamicProgramming | linear_dp | 2026-06-06 | 2026-06-20 | done |
+| Maximum Subarray (#53) | DynamicProgramming | linear_dp | 2026-06-20 | 2026-07-10 | pending |
 | House Robber II (#213) | DynamicProgramming | linear_dp | 2026-05-27 | 2026-05-30 | done |
 | House Robber II (#213) | DynamicProgramming | linear_dp | 2026-05-30 | 2026-06-09 | done |
 | House Robber II (#213) | DynamicProgramming | linear_dp | 2026-06-10 | 2026-06-24 | pending |
@@ -71,10 +73,12 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | 2026-06-18 | 2026-06-22 | pending |
 | Maximum Product Subarray (#152) | DynamicProgramming | multi_state_dp | 2026-06-14 | 2026-06-18 | done |
 | Maximum Product Subarray (#152) | DynamicProgramming | multi_state_dp | 2026-06-18 | 2026-06-23 | pending |
-| Min Stack (#155) | Stack | min_stack | 2026-06-14 | 2026-06-20 | pending |
+| Min Stack (#155) | Stack | min_stack | 2026-06-14 | 2026-06-20 | done |
+| Min Stack (#155) | Stack | min_stack | 2026-06-20 | 2026-07-10 | pending |
 | Number of Provinces (#547) | UnionFind | connected_components | 2026-06-15 | 2026-06-19 | done |
 | Number of Provinces (#547) | UnionFind | connected_components | 2026-06-19 | 2026-06-29 | pending |
-| Redundant Connection (#684) | UnionFind | cycle_detection | 2026-06-15 | 2026-06-20 | pending |
+| Redundant Connection (#684) | UnionFind | cycle_detection | 2026-06-15 | 2026-06-20 | done |
+| Redundant Connection (#684) | UnionFind | cycle_detection | 2026-06-20 | 2026-06-25 | pending |
 | Pow(x, n) (#50) | Math | fast_exponentiation | 2026-06-16 | 2026-06-21 | pending |
 | Word Search (#79) | Backtracking | grid_backtracking | 2026-06-03 | 2026-06-08 | done |
 | Word Search (#79) | Backtracking | grid_backtracking | 2026-06-08 | 2026-06-18 | done |
@@ -110,4 +114,5 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Sort an Array (#912) | DivideAndConquer | merge_sort | 2026-06-01 | 2026-06-16 | done |
 | Sort an Array (#912) | DivideAndConquer | merge_sort | 2026-06-16 | 2026-07-01 | pending |
 | Merge Intervals (#56) | Greedy | interval_merge | 2026-05-29 | 2026-06-05 | done |
-| Merge Intervals (#56) | Greedy | interval_merge | 2026-06-06 | 2026-06-20 | pending |
+| Merge Intervals (#56) | Greedy | interval_merge | 2026-06-06 | 2026-06-20 | done |
+| Merge Intervals (#56) | Greedy | interval_merge | 2026-06-20 | 2026-07-10 | pending |
