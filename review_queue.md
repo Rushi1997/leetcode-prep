@@ -92,6 +92,7 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Number of 1 Bits (#191) | BitManipulation | bit_counting | 2026-06-19 | 2026-07-07 | pending |
 | Rotting Oranges (#994) | Graphs | multi_source_bfs | 2026-06-19 | 2026-06-24 | pending |
 | Design Linked List (#707) | Design | doubly_linked_list | 2026-06-19 | 2026-06-23 | pending |
+| LCA of a Binary Tree (#236) | Trees | lowest_common_ancestor | 2026-06-20 | 2026-06-26 | pending |
 | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-06-03 | 2026-06-07 | done |
 | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-06-07 | 2026-06-21 | pending |
 | 3Sum (#15) | TwoPointers | three_sum | 2026-06-04 | 2026-06-11 | done |

@@ -1038,7 +1038,7 @@ Daily journal of problems solved, learnings, and next steps.
 
 ## 2026-06-20 — Day 43
 
-**Reviews: 5**
+**Problems solved: 1, Reviews: 5**
 
 | # | Problem | Category | Pattern | Score | Review? |
 |---|---------|----------|---------|-------|---------|
@@ -1046,11 +1046,19 @@ Daily journal of problems solved, learnings, and next steps.
 | R | Maximum Subarray (#53) | DynamicProgramming | linear_dp | — | review done, retry 07-10 |
 | R | Min Stack (#155) | Stack | min_stack | — | review done, retry 07-10 |
 | R | Redundant Connection (#684) | UnionFind | cycle_detection | — | review done, retry 06-25 |
-| R | Merge Intervals (#56) | Greedy | interval_merge | — | review done, retry 07-10 |
+| R | Merge Intervals (#56) | Greedy | interval_merge | — | review done, retry 06-30 |
+| 94 | LCA of a Binary Tree (#236) | Trees | lowest_common_ancestor | 6/10 | YES — redo 06-26 |
 
 **Notes (all clean — discussing optimization/intuition rather than fixing bugs):**
 - Course Schedule: move `visited`/`visiting` OUTSIDE the loop so `visited` persists across courses → O(V+E) not O(V·E); discussed post-order "safety bubbles up from leaves" intuition
 - Min Stack: the conditional `minStack` push (only on new min) is itself a space optimization; `<=` (not `<`) is essential for duplicates so they pop in sync
+
+**Patterns learned (LCA of a general binary tree — #236):**
+- No BST ordering to exploit; search BOTH subtrees and bubble up
+- Base case: `if node is None or node == p or node == q: return node` (early return handles ancestor case)
+- After recursing: `if left and right: return root` (targets split here → LCA), else `return left or right` (bubble up)
+- Return value does double duty: "found p/q here" going up, then "here's the LCA" once both merge
+- Overcomplication trap: checking `left == p and right == q` is wrong — sides may return a subtree LCA or be swapped; just check both non-None
 
 ---
 
