@@ -1071,5 +1071,25 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-06-21 — Day 44
+
+**Reviews: 2**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Pow(x, n) (#50) | Math | fast_exponentiation | — | review done, retry 06-28 |
+| R | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | — | review done, retry 06-28 |
+
+**Bugs during reviews:**
+- Pow: dropped the negative-exponent guard → `n // 2` of a negative floors toward -inf → infinite recursion. Fix: `if n < 0: x = 1/x; n = -n` before recursing
+- Koko: mixed binary-search templates — `while left < right` with `right = mid - 1` skips the answer (showed failing case `piles=[7,7,7], h=6` returning 3 instead of 4)
+
+**Binary-search template rule (important takeaway):**
+- `while left <= right` ↔ `right = mid - 1` / `left = mid + 1`, return `left` (Template A — use this everywhere)
+- `while left < right` ↔ `right = mid` (NOT mid-1) / `left = mid + 1`, return `left` (Template B)
+- Mixing them breaks: `<` + `mid-1` steps over the answer; `<=` + `mid` infinite-loops
+
+---
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11
