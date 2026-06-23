@@ -12,7 +12,7 @@ Catching back up on DSA patterns after a few years. Solving problems on LeetCode
 | BinarySearch | 5 | 162 | classic_binary_search, rotated_sorted_search, binary_search_on_answer |
 | LinkedList | 4 | 53 | reversal, fast_slow_pointers, merge_lists |
 | Arrays | 1 | 224 | prefix_suffix_products |
-| SlidingWindow | 4 | 98 | fixed_window, variable_window, variable_window_unique_elements |
+| SlidingWindow | 5 | 98 | fixed_window, variable_window, variable_window_unique_elements, replacement_budget |
 | Trees | 12 | 227 | dfs_traversal, tree_modification, path_sum, bst_operations, bfs_level_order, lowest_common_ancestor, binary_tree_dp |
 | Graphs | 9 | 187 | grid_traversal, dfs_connected_components, graph_traversal, topological_sort, multi_source_bfs |
 | DynamicProgramming | 8 | 392 | linear_dp, knapsack, expand_around_center, multi_state_dp |
@@ -28,7 +28,7 @@ Catching back up on DSA patterns after a few years. Solving problems on LeetCode
 | DivideAndConquer | 1 | 24 | merge_sort |
 | SegmentTree | 0 | 25 | |
 
-**Total: 96 / 2733**
+**Total: 97 / 2733**
 
 ## Key Files
 

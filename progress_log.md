@@ -1103,12 +1103,17 @@ Daily journal of problems solved, learnings, and next steps.
 | # | Problem | Category | Pattern | Score | Review? |
 |---|---------|----------|---------|-------|---------|
 | 96 | Combination Sum (#39) | Backtracking | combination_sum | 5/10 | YES — redo 07-10 |
+| 97 | Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 5/10 | YES — redo 06-24 |
 
 **Patterns learned:**
 - Combination Sum: like Combinations but elements can be REUSED → recurse with `i` (not `i + 1`)
 - Still start the loop at `index` (not 0) so you don't generate the same combo in different orders
 - Two base cases: `amount == 0` → append & return (success); `amount < 0` → return (prune)
 - Solved clean on the first try — backtracking foundation is solid now
+- Longest Repeating Char Replacement: window is valid when `windowLen - maxFreq <= k` (chars to replace = everything but the most frequent)
+- Mental model: window only grows or slides — `right` always advances, `left` nudges forward ONE step only when invalid
+- Don't pick a starting window size — start both at 0, let it grow itself
+- `maxFreq = max(count.values())` each step is the intuitive (slightly costly) version — fine, don't optimize yet
 
 ---
 
