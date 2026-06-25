@@ -1137,5 +1137,23 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-06-24 — Day 47
+
+**Reviews: 5**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | LCA of a Binary Tree (#236) | Trees | lowest_common_ancestor | — | review done, retry 06-30 |
+| R | House Robber II (#213) | DynamicProgramming | linear_dp | — | review done, retry 07-14 |
+| R | Rotting Oranges (#994) | Graphs | multi_source_bfs | — | review done, retry 06-30 |
+| R | Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | — | review done, retry 06-26 |
+| R | Container With Most Water (#11) | TwoPointers | container | — | review done, retry 07-04 |
+
+**Bugs during reviews:**
+- Rotting Oranges: `minutes += 1` was inside the inner loop (per-orange) instead of per-level; needs `while q and fresh > 0` guard + increment once per while-iteration
+- LCA: used `node.val == p.val` (works since values unique, but `node == p` is more robust)
+
+---
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11
