@@ -1155,5 +1155,21 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-06-25 — Day 48
+
+**Reviews: 1**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Subsets (#78) | Backtracking | subset_enumeration | — | review done (regressed — repeat 06-26) |
+
+**Bug during review (Subsets):**
+- Mixed two templates: had a `index == len(nums)` base case AND two recursive calls (binary include/exclude bleeding into the forward-loop version)
+- Other slips: appended `i` instead of `nums[i]`; `range(index, len+1)` out of bounds; recursed `index+1` instead of `i+1`
+- Canonical template: append `current.copy()` at EVERY call (no base case), forward loop `for i in range(index, len)`, recurse `i+1`. No set needed — `i+1` structurally prevents reuse
+- Deferred the rest of June 25's heavy batch (8 reviews) to 06-26/27
+
+---
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11
