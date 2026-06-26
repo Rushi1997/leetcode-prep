@@ -1171,5 +1171,28 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-06-25/26 — Day 49 (cleared the deferred June-25 batch)
+
+**Reviews: 8**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Permutations (#46) | Backtracking | permutation_generation | — | clean, retry 07-05 |
+| R | House Robber (#198) | DynamicProgramming | linear_dp | — | clean, retry 07-15 |
+| R | Coin Change (#322) | DynamicProgramming | knapsack | — | clean, retry 07-25 |
+| R | Delete and Earn (#740) | DynamicProgramming | linear_dp | — | retry 07-06 |
+| R | Insert Interval (#57) | Greedy | interval_merge | — | clean, retry 07-06 |
+| R | Redundant Connection (#684) | UnionFind | cycle_detection | — | clean (used dict for parent), retry 07-06 |
+| R | Design Linked List (#707) | Design | doubly_linked_list | — | much cleaner, retry 07-10 |
+| R | Diameter of Binary Tree (#543) | Trees | binary_tree_dp | — | retry 07-06 |
+
+**Bugs / notes:**
+- Delete and Earn: `maxPoint` only updated from i=2, so `maxVal == 1` returned 0 → since dp is non-decreasing, just `return dp[maxVal]`
+- Diameter: used `max(self.diameter, left, right)` instead of `left + right` (path through node uses BOTH sides)
+- Design Linked List: Node class declared `head`/`tail` but used `.prev`/`.next` — worked by dynamic attribute creation, but fragile; fixed to declare `prev`/`next`. The bookkeeping (bounds, size, i±1) was all clean this time — big improvement
+- Redundant Connection: used a dict keyed `1..n` instead of list + `-1` offset — cleaner
+
+---
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11

@@ -49,11 +49,14 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Subsets (#78) | Backtracking | subset_enumeration | 2026-06-07 | 2026-06-25 | done |
 | Subsets (#78) | Backtracking | subset_enumeration | 2026-06-25 | 2026-06-26 | pending |
 | Permutations (#46) | Backtracking | permutation_generation | 2026-05-28 | 2026-06-07 | done |
-| Permutations (#46) | Backtracking | permutation_generation | 2026-06-07 | 2026-06-26 | pending |
+| Permutations (#46) | Backtracking | permutation_generation | 2026-06-07 | 2026-06-25 | done |
+| Permutations (#46) | Backtracking | permutation_generation | 2026-06-25 | 2026-07-05 | pending |
 | House Robber (#198) | DynamicProgramming | linear_dp | 2026-05-28 | 2026-06-07 | done |
-| House Robber (#198) | DynamicProgramming | linear_dp | 2026-06-07 | 2026-06-26 | pending |
+| House Robber (#198) | DynamicProgramming | linear_dp | 2026-06-07 | 2026-06-25 | done |
+| House Robber (#198) | DynamicProgramming | linear_dp | 2026-06-25 | 2026-07-15 | pending |
 | Coin Change (#322) | DynamicProgramming | knapsack | 2026-05-28 | 2026-06-08 | done |
-| Coin Change (#322) | DynamicProgramming | knapsack | 2026-06-08 | 2026-06-26 | pending |
+| Coin Change (#322) | DynamicProgramming | knapsack | 2026-06-08 | 2026-06-25 | done |
+| Coin Change (#322) | DynamicProgramming | knapsack | 2026-06-25 | 2026-07-25 | pending |
 | Maximum Subarray (#53) | DynamicProgramming | linear_dp | 2026-05-26 | 2026-05-29 | done |
 | Maximum Subarray (#53) | DynamicProgramming | linear_dp | 2026-05-29 | 2026-06-05 | done |
 | Maximum Subarray (#53) | DynamicProgramming | linear_dp | 2026-06-06 | 2026-06-20 | done |
@@ -64,7 +67,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | House Robber II (#213) | DynamicProgramming | linear_dp | 2026-06-24 | 2026-07-14 | pending |
 | Insert Interval (#57) | Greedy | interval_merge | 2026-05-31 | 2026-06-04 | done |
 | Insert Interval (#57) | Greedy | interval_merge | 2026-06-04 | 2026-06-11 | done |
-| Insert Interval (#57) | Greedy | interval_merge | 2026-06-11 | 2026-06-27 | pending |
+| Insert Interval (#57) | Greedy | interval_merge | 2026-06-11 | 2026-06-25 | done |
+| Insert Interval (#57) | Greedy | interval_merge | 2026-06-25 | 2026-07-06 | pending |
 | Non-overlapping Intervals (#435) | Greedy | interval_scheduling | 2026-05-31 | 2026-06-05 | done |
 | Non-overlapping Intervals (#435) | Greedy | interval_scheduling | 2026-06-06 | 2026-06-16 | done |
 | Non-overlapping Intervals (#435) | Greedy | interval_scheduling | 2026-06-16 | 2026-06-30 | pending |
@@ -86,7 +90,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Number of Provinces (#547) | UnionFind | connected_components | 2026-06-15 | 2026-06-19 | done |
 | Number of Provinces (#547) | UnionFind | connected_components | 2026-06-19 | 2026-06-29 | pending |
 | Redundant Connection (#684) | UnionFind | cycle_detection | 2026-06-15 | 2026-06-20 | done |
-| Redundant Connection (#684) | UnionFind | cycle_detection | 2026-06-20 | 2026-06-27 | pending |
+| Redundant Connection (#684) | UnionFind | cycle_detection | 2026-06-20 | 2026-06-25 | done |
+| Redundant Connection (#684) | UnionFind | cycle_detection | 2026-06-25 | 2026-07-06 | pending |
 | Pow(x, n) (#50) | Math | fast_exponentiation | 2026-06-16 | 2026-06-21 | done |
 | Pow(x, n) (#50) | Math | fast_exponentiation | 2026-06-21 | 2026-06-28 | pending |
 | Word Search (#79) | Backtracking | grid_backtracking | 2026-06-03 | 2026-06-08 | done |
@@ -102,10 +107,12 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Rotting Oranges (#994) | Graphs | multi_source_bfs | 2026-06-19 | 2026-06-24 | done |
 | Rotting Oranges (#994) | Graphs | multi_source_bfs | 2026-06-24 | 2026-06-30 | pending |
 | Design Linked List (#707) | Design | doubly_linked_list | 2026-06-19 | 2026-06-23 | done |
-| Design Linked List (#707) | Design | doubly_linked_list | 2026-06-23 | 2026-06-26 | pending |
+| Design Linked List (#707) | Design | doubly_linked_list | 2026-06-23 | 2026-06-26 | done |
+| Design Linked List (#707) | Design | doubly_linked_list | 2026-06-26 | 2026-07-10 | pending |
 | LCA of a Binary Tree (#236) | Trees | lowest_common_ancestor | 2026-06-20 | 2026-06-24 | done |
 | LCA of a Binary Tree (#236) | Trees | lowest_common_ancestor | 2026-06-24 | 2026-06-30 | pending |
-| Diameter of Binary Tree (#543) | Trees | binary_tree_dp | 2026-06-20 | 2026-06-27 | pending |
+| Diameter of Binary Tree (#543) | Trees | binary_tree_dp | 2026-06-20 | 2026-06-26 | done |
+| Diameter of Binary Tree (#543) | Trees | binary_tree_dp | 2026-06-26 | 2026-07-06 | pending |
 | Combination Sum (#39) | Backtracking | combination_sum | 2026-06-22 | 2026-07-10 | pending |
 | Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-06-22 | 2026-06-24 | done |
 | Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-06-24 | 2026-06-26 | pending |
@@ -128,7 +135,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Container With Most Water (#11) | TwoPointers | container | 2026-06-24 | 2026-07-04 | pending |
 | Delete and Earn (#740) | DynamicProgramming | linear_dp | 2026-05-27 | 2026-05-30 | done |
 | Delete and Earn (#740) | DynamicProgramming | linear_dp | 2026-05-30 | 2026-06-07 | done |
-| Delete and Earn (#740) | DynamicProgramming | linear_dp | 2026-06-07 | 2026-06-27 | pending |
+| Delete and Earn (#740) | DynamicProgramming | linear_dp | 2026-06-07 | 2026-06-25 | done |
+| Delete and Earn (#740) | DynamicProgramming | linear_dp | 2026-06-25 | 2026-07-06 | pending |
 | Sort an Array (#912) | DivideAndConquer | merge_sort | 2026-05-29 | 2026-06-01 | done |
 | Sort an Array (#912) | DivideAndConquer | merge_sort | 2026-06-01 | 2026-06-16 | done |
 | Sort an Array (#912) | DivideAndConquer | merge_sort | 2026-06-16 | 2026-07-01 | pending |
