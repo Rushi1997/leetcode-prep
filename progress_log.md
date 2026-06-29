@@ -1212,5 +1212,27 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-06-28 — Day 51
+
+**Reviews: 8** (cleared the whole stacked batch — all clean or near-clean)
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Task Scheduler (#621) | Greedy | cooldown_scheduling | — | clean, retry 07-18 |
+| R | Find Median from Data Stream (#295) | Heap | two_heaps_median | — | clean, retry 07-23 |
+| R | Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | — | clean, retry 07-18 |
+| R | Pow(x, n) (#50) | Math | fast_exponentiation | — | clean (remembered neg guard), retry 08-28 |
+| R | Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | — | simplified to clean form, retry 07-05 |
+| R | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | — | clean (consistent template), retry 07-19 |
+| R | 3Sum (#15) | TwoPointers | three_sum | — | clean (dead dup-check noted), retry 08-28 |
+| R | Group Anagrams (#49) | Hashing | grouping_by_key | — | clean, retry 07-05 |
+
+**Notes:**
+- Longest Repeating Char Replacement: first attempt over-engineered (`min(windowLen, maxFreq+k)` + double tracking) → simplified to expand / shrink-by-one-if-budget-blown / record `right-left+1`
+- 3Sum: dead check `k == k - 1` (always false) — meant `nums[k] == nums[k-1]`; set dedup made it pass anyway
+- Task Scheduler & Find Median both clean — the two that used to be buggy are now solid
+
+---
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11
