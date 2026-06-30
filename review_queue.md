@@ -92,7 +92,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Min Stack (#155) | Stack | min_stack | 2026-06-14 | 2026-06-20 | done |
 | Min Stack (#155) | Stack | min_stack | 2026-06-20 | 2026-07-10 | pending |
 | Number of Provinces (#547) | UnionFind | connected_components | 2026-06-15 | 2026-06-19 | done |
-| Number of Provinces (#547) | UnionFind | connected_components | 2026-06-19 | 2026-06-29 | pending |
+| Number of Provinces (#547) | UnionFind | connected_components | 2026-06-19 | 2026-06-29 | done |
+| Number of Provinces (#547) | UnionFind | connected_components | 2026-06-29 | 2026-07-29 | pending |
 | Redundant Connection (#684) | UnionFind | cycle_detection | 2026-06-15 | 2026-06-20 | done |
 | Redundant Connection (#684) | UnionFind | cycle_detection | 2026-06-20 | 2026-06-25 | done |
 | Redundant Connection (#684) | UnionFind | cycle_detection | 2026-06-25 | 2026-07-06 | pending |
@@ -131,9 +132,12 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | 3Sum (#15) | TwoPointers | three_sum | 2026-06-10 | 2026-06-28 | done |
 | 3Sum (#15) | TwoPointers | three_sum | 2026-06-28 | 2026-08-28 | pending |
 | Product of Array Except Self (#238) | Arrays | prefix_suffix_products | 2026-06-10 | 2026-06-15 | done |
-| Product of Array Except Self (#238) | Arrays | prefix_suffix_products | 2026-06-15 | 2026-06-29 | pending |
+| Product of Array Except Self (#238) | Arrays | prefix_suffix_products | 2026-06-15 | 2026-06-29 | done |
+| Product of Array Except Self (#238) | Arrays | prefix_suffix_products | 2026-06-29 | 2026-07-20 | pending |
 | Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | 2026-06-10 | 2026-06-15 | done |
-| Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | 2026-06-15 | 2026-06-29 | pending |
+| Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | 2026-06-15 | 2026-06-29 | done |
+| Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | 2026-06-29 | 2026-07-20 | pending |
+| Majority Element (#169) | Arrays | frequency_counting | 2026-06-30 | 2026-07-07 | pending |
 | Group Anagrams (#49) | Hashing | grouping_by_key | 2026-06-10 | 2026-06-28 | done |
 | Group Anagrams (#49) | Hashing | grouping_by_key | 2026-06-28 | 2026-07-05 | pending |
 | Longest Palindromic Substring (#5) | String | expand_around_center | 2026-06-11 | 2026-06-16 | done |

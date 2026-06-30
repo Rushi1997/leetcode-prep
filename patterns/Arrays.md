@@ -84,7 +84,7 @@
 | 896 | [Monotonic Array](https://leetcode.com/problems/monotonic-array/) | Easy | 1/10 | 62.3% | [ ] |
 | 1213 | [Intersection of Three Sorted Arrays](https://leetcode.com/problems/intersection-of-three-sorted-arrays/) :lock: | Easy | 2/10 | 80.0% | [ ] |
 | 821 | [Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/) | Easy | 2/10 | 72.8% | [ ] |
-| 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | Easy | 2/10 | 66.3% | [ ] |
+| 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | Easy | 2/10 | 66.3% | [x] |
 | 243 | [Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/) :lock: | Easy | 2/10 | 66.3% | [ ] |
 | 1629 | [Slowest Key](https://leetcode.com/problems/slowest-key/) | Easy | 2/10 | 59.6% | [ ] |
 | 228 | [Summary Ranges](https://leetcode.com/problems/summary-ranges/) | Easy | 2/10 | 54.2% | [ ] |

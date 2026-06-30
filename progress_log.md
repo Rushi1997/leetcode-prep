@@ -1234,5 +1234,27 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-06-29/30 — Day 52
+
+**Problems solved: 1, Reviews: 3**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Number of Provinces (#547) | UnionFind | connected_components | — | review done, retry 07-29 |
+| R | Product of Array Except Self (#238) | Arrays | prefix_suffix_products | — | review done, retry 07-20 |
+| R | Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | — | review done, retry 07-20 |
+| 98 | Majority Element (#169) | Arrays | frequency_counting | 2/10 | YES — redo 07-07 |
+
+**Recurring bugs (both seen before on these exact problems):**
+- Number of Provinces: `len(set(parent))` again — must count distinct `find(i)`, not raw parents
+- Longest Consecutive (3rd time!): iterate over the SET, not the list, or duplicates re-run the scan → TLE
+
+**Patterns learned:**
+- Majority Element: simplest is `Counter(nums).most_common(1)[0][0]`
+- `Counter.most_common(k)` returns a list of `(element, count)` tuples sorted by frequency (no arg = all) — handy for top-K
+- Boyer-Moore voting (O(1) space) introduced but deferred — candidate/count cancellation didn't click yet, revisit later
+
+---
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11
