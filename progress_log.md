@@ -1270,6 +1270,14 @@ Daily journal of problems solved, learnings, and next steps.
 
 **Note:** All five clean, no bugs — mostly reinforced. Lambda reminder for user: `key=lambda x: x[1]` = throwaway fn, `x` is input, part after `:` is the return (sort by 2nd element).
 
+**New problem:**
+| 99 | Kth Smallest Element in a BST (#230) | Trees | inorder_traversal | 4/10 | YES — redo 07-03 |
+- BST in-order traversal (left→node→right) visits nodes in SORTED order → k-th visited = answer
+- Simple: collect all into list, return `list[k-1]`
+- Early-stop: `self.k`/`self.ans` instance vars shared across recursion; decrement k per node, when k==0 store answer; `self.ans != None` guard makes remaining calls return immediately (bail out)
+- Bug: passed a fresh `[]` to helper instead of `result`
+- The shared-`self`-state + early-out pattern generalizes to many "find k-th / first / stop-when" tree problems
+
 ---
 
 ## Problems to redo

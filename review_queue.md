@@ -141,6 +141,7 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | 2026-06-15 | 2026-06-29 | done |
 | Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | 2026-06-29 | 2026-07-20 | pending |
 | Majority Element (#169) | Arrays | frequency_counting | 2026-06-30 | 2026-07-07 | pending |
+| Kth Smallest Element in a BST (#230) | Trees | inorder_traversal | 2026-06-30 | 2026-07-03 | pending |
 | Group Anagrams (#49) | Hashing | grouping_by_key | 2026-06-10 | 2026-06-28 | done |
 | Group Anagrams (#49) | Hashing | grouping_by_key | 2026-06-28 | 2026-07-05 | pending |
 | Longest Palindromic Substring (#5) | String | expand_around_center | 2026-06-11 | 2026-06-16 | done |
