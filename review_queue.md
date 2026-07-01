@@ -72,7 +72,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Insert Interval (#57) | Greedy | interval_merge | 2026-06-25 | 2026-07-06 | pending |
 | Non-overlapping Intervals (#435) | Greedy | interval_scheduling | 2026-05-31 | 2026-06-05 | done |
 | Non-overlapping Intervals (#435) | Greedy | interval_scheduling | 2026-06-06 | 2026-06-16 | done |
-| Non-overlapping Intervals (#435) | Greedy | interval_scheduling | 2026-06-16 | 2026-06-30 | pending |
+| Non-overlapping Intervals (#435) | Greedy | interval_scheduling | 2026-06-16 | 2026-06-30 | done |
+| Non-overlapping Intervals (#435) | Greedy | interval_scheduling | 2026-06-30 | 2026-07-03 | pending |
 | Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-06-01 | 2026-06-04 | done |
 | Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-06-04 | 2026-06-09 | done |
 | Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-06-09 | 2026-06-23 | done |
@@ -112,12 +113,14 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Number of 1 Bits (#191) | BitManipulation | bit_counting | 2026-06-12 | 2026-06-19 | done |
 | Number of 1 Bits (#191) | BitManipulation | bit_counting | 2026-06-19 | 2026-07-07 | pending |
 | Rotting Oranges (#994) | Graphs | multi_source_bfs | 2026-06-19 | 2026-06-24 | done |
-| Rotting Oranges (#994) | Graphs | multi_source_bfs | 2026-06-24 | 2026-06-30 | pending |
+| Rotting Oranges (#994) | Graphs | multi_source_bfs | 2026-06-24 | 2026-06-30 | done |
+| Rotting Oranges (#994) | Graphs | multi_source_bfs | 2026-06-30 | 2026-08-14 | pending |
 | Design Linked List (#707) | Design | doubly_linked_list | 2026-06-19 | 2026-06-23 | done |
 | Design Linked List (#707) | Design | doubly_linked_list | 2026-06-23 | 2026-06-26 | done |
 | Design Linked List (#707) | Design | doubly_linked_list | 2026-06-26 | 2026-07-10 | pending |
 | LCA of a Binary Tree (#236) | Trees | lowest_common_ancestor | 2026-06-20 | 2026-06-24 | done |
-| LCA of a Binary Tree (#236) | Trees | lowest_common_ancestor | 2026-06-24 | 2026-06-30 | pending |
+| LCA of a Binary Tree (#236) | Trees | lowest_common_ancestor | 2026-06-24 | 2026-06-30 | done |
+| LCA of a Binary Tree (#236) | Trees | lowest_common_ancestor | 2026-06-30 | 2026-07-14 | pending |
 | Diameter of Binary Tree (#543) | Trees | binary_tree_dp | 2026-06-20 | 2026-06-26 | done |
 | Diameter of Binary Tree (#543) | Trees | binary_tree_dp | 2026-06-26 | 2026-07-06 | pending |
 | Combination Sum (#39) | Backtracking | combination_sum | 2026-06-22 | 2026-07-10 | pending |
@@ -141,7 +144,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Group Anagrams (#49) | Hashing | grouping_by_key | 2026-06-10 | 2026-06-28 | done |
 | Group Anagrams (#49) | Hashing | grouping_by_key | 2026-06-28 | 2026-07-05 | pending |
 | Longest Palindromic Substring (#5) | String | expand_around_center | 2026-06-11 | 2026-06-16 | done |
-| Longest Palindromic Substring (#5) | String | expand_around_center | 2026-06-16 | 2026-06-30 | pending |
+| Longest Palindromic Substring (#5) | String | expand_around_center | 2026-06-16 | 2026-06-30 | done |
+| Longest Palindromic Substring (#5) | String | expand_around_center | 2026-06-30 | 2026-07-30 | pending |
 | Palindromic Substrings (#647) | DynamicProgramming | expand_around_center | 2026-06-11 | 2026-06-17 | done |
 | Palindromic Substrings (#647) | DynamicProgramming | expand_around_center | 2026-06-18 | 2026-07-08 | pending |
 | Container With Most Water (#11) | TwoPointers | container | 2026-06-04 | 2026-06-09 | done |
@@ -156,4 +160,5 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Sort an Array (#912) | DivideAndConquer | merge_sort | 2026-06-16 | 2026-07-01 | pending |
 | Merge Intervals (#56) | Greedy | interval_merge | 2026-05-29 | 2026-06-05 | done |
 | Merge Intervals (#56) | Greedy | interval_merge | 2026-06-06 | 2026-06-20 | done |
-| Merge Intervals (#56) | Greedy | interval_merge | 2026-06-20 | 2026-06-30 | pending |
+| Merge Intervals (#56) | Greedy | interval_merge | 2026-06-20 | 2026-06-30 | done |
+| Merge Intervals (#56) | Greedy | interval_merge | 2026-06-30 | 2026-07-21 | pending |

@@ -1256,5 +1256,21 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-06-30 — Day 53
+
+**Reviews: 5** (all clean)
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Non-overlapping Intervals (#435) | Greedy | interval_scheduling | — | clean, retry 07-03 (forgets lambda) |
+| R | Rotting Oranges (#994) | Graphs | multi_source_bfs | — | clean, retry 08-14 |
+| R | LCA of a Binary Tree (#236) | Trees | lowest_common_ancestor | — | clean (used node ==), retry 07-14 |
+| R | Longest Palindromic Substring (#5) | String | expand_around_center | — | clean, retry 07-30 |
+| R | Merge Intervals (#56) | Greedy | interval_merge | — | clean, retry 07-21 |
+
+**Note:** All five clean, no bugs — mostly reinforced. Lambda reminder for user: `key=lambda x: x[1]` = throwaway fn, `x` is input, part after `:` is the return (sort by 2nd element).
+
+---
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11
