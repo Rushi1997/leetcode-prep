@@ -1306,5 +1306,26 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-07-04 — Day 55
+
+**Reviews: 6** (all clean)
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | — | clean this time! retry 07-14 |
+| R | Single Number (#136) | BitManipulation | xor_cancellation | — | clean, retry 07-29 |
+| R | Non-overlapping Intervals (#435) | Greedy | interval_scheduling | — | clean (remembered lambda), retry 07-29 |
+| R | Maximum Product Subarray (#152) | DynamicProgramming | multi_state_dp | — | clean, retry 08-01 |
+| R | Kth Smallest Element in a BST (#230) | Trees | inorder_traversal | — | clean, retry 07-22 |
+| R | Container With Most Water (#11) | TwoPointers | container | — | clean, retry 08-19 |
+
+**Concept clarified (`if x` vs `if x is not None`):**
+- `if self.output` is a truthiness check → False for None BUT ALSO for 0, "", [], {}
+- `if self.output is not None` only checks for None
+- Matters in Kth Smallest: a node value of 0 is a valid answer; truthiness check would fail to early-out and could get overwritten. Default to `is not None` for "has this been set?" checks
+- Find Min in Rotated Array came out clean — the finicky `<=`/`mid±1` + non-strict left-check finally stuck
+
+---
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11
