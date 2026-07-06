@@ -13,7 +13,7 @@ Catching back up on DSA patterns after a few years. Solving problems on LeetCode
 | LinkedList | 4 | 53 | reversal, fast_slow_pointers, merge_lists |
 | Arrays | 2 | 224 | prefix_suffix_products, frequency_counting |
 | SlidingWindow | 5 | 98 | fixed_window, variable_window, variable_window_unique_elements, replacement_budget |
-| Trees | 14 | 227 | dfs_traversal, tree_modification, path_sum, bst_operations, bfs_level_order, lowest_common_ancestor, binary_tree_dp, inorder_traversal |
+| Trees | 16 | 227 | dfs_traversal, tree_modification, path_sum, bst_operations, bfs_level_order, lowest_common_ancestor, binary_tree_dp, inorder_traversal, pass_down_state |
 | Graphs | 9 | 187 | grid_traversal, dfs_connected_components, graph_traversal, topological_sort, multi_source_bfs |
 | DynamicProgramming | 8 | 392 | linear_dp, knapsack, expand_around_center, multi_state_dp |
 | Greedy | 5 | 331 | stock_trading, interval_merge, interval_scheduling, cooldown_scheduling |
@@ -28,7 +28,7 @@ Catching back up on DSA patterns after a few years. Solving problems on LeetCode
 | DivideAndConquer | 1 | 24 | merge_sort |
 | SegmentTree | 0 | 25 | |
 
-**Total: 101 / 2733**
+**Total: 102 / 2733**
 
 ## Key Files
 

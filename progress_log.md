@@ -1337,6 +1337,13 @@ Daily journal of problems solved, learnings, and next steps.
 
 **Deferred to 07-06+:** Combinations, Permutations, Longest Repeating Char Replacement (were due 07-05)
 
+**New problem (bonus):**
+| 102 | Count Good Nodes (#1448) | Trees | pass_down_state | 4/10 | YES — redo 07-16 |
+- PASS-DOWN pattern (vs return-up): helper carries `maxSoFar` as a parameter down the path
+- Good node = `node.val >= maxSoFar`; recurse children with `max(maxSoFar, node.val)`; seed with `float('-inf')`
+- `>=` not `>`: an ancestor that TIES isn't "greater than," so the node still counts (path [3,3] → both good)
+- Contrast: Diameter/Balanced RETURN height up; Count Good Nodes PASSES max down
+
 ---
 
 ## Problems to redo

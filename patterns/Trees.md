@@ -324,7 +324,7 @@
 | 1022 | [Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-root-to-leaf-binary-numbers/) | Easy | 2/10 | 76.6% | [ ] |
 | 112 | [Path Sum](https://leetcode.com/problems/path-sum/) | Easy | 2/10 | 54.9% | [ ] |
 | 257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | Easy | 3/10 | 68.6% | [ ] |
-| 1448 | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | Medium | 4/10 | 73.8% | [ ] |
+| 1448 | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | Medium | 4/10 | 73.8% | [x] |
 | 129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | Medium | 4/10 | 69.9% | [ ] |
 | 113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/) | Medium | 4/10 | 62.2% | [ ] |
 | 298 | [Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/) :lock: | Medium | 4/10 | 54.7% | [ ] |

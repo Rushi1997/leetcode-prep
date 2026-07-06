@@ -148,6 +148,7 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Majority Element (#169) | Arrays | frequency_counting | 2026-06-30 | 2026-07-07 | pending |
 | Kth Smallest Element in a BST (#230) | Trees | inorder_traversal | 2026-06-30 | 2026-07-03 | done |
 | Kth Smallest Element in a BST (#230) | Trees | inorder_traversal | 2026-07-04 | 2026-07-22 | pending |
+| Count Good Nodes (#1448) | Trees | pass_down_state | 2026-07-05 | 2026-07-16 | pending |
 | Binary Tree Right Side View (#199) | Trees | bfs_level_order | 2026-07-01 | 2026-08-15 | pending |
 | Balanced Binary Tree (#110) | Trees | balanced_tree | 2026-07-01 | 2026-10-01 | pending |
 | Group Anagrams (#49) | Hashing | grouping_by_key | 2026-06-10 | 2026-06-28 | done |
