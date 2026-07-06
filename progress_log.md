@@ -1327,5 +1327,17 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-07-05 — Day 56
+
+**Reviews: 1** (short day)
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Group Anagrams (#49) | Hashing | grouping_by_key | — | clean, retry 07-25 |
+
+**Deferred to 07-06+:** Combinations, Permutations, Longest Repeating Char Replacement (were due 07-05)
+
+---
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11

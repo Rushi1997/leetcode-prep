@@ -33,7 +33,7 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Combinations (#77) | Backtracking | combination_generation | 2026-05-30 | 2026-06-04 | done |
 | Combinations (#77) | Backtracking | combination_generation | 2026-06-04 | 2026-06-08 | done |
 | Combinations (#77) | Backtracking | combination_generation | 2026-06-08 | 2026-06-22 | done |
-| Combinations (#77) | Backtracking | combination_generation | 2026-06-21 | 2026-07-05 | pending |
+| Combinations (#77) | Backtracking | combination_generation | 2026-06-21 | 2026-07-06 | pending |
 | Validate BST (#98) | Trees | bst_operations | 2026-05-23 | 2026-05-26 | done |
 | Climbing Stairs (#70) | DynamicProgramming | linear_dp | 2026-05-23 | 2026-05-26 | done |
 | Climbing Stairs (#70) | DynamicProgramming | linear_dp | 2026-05-26 | 2026-05-30 | done |
@@ -51,7 +51,7 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Subsets (#78) | Backtracking | subset_enumeration | 2026-06-27 | 2026-07-14 | pending |
 | Permutations (#46) | Backtracking | permutation_generation | 2026-05-28 | 2026-06-07 | done |
 | Permutations (#46) | Backtracking | permutation_generation | 2026-06-07 | 2026-06-25 | done |
-| Permutations (#46) | Backtracking | permutation_generation | 2026-06-25 | 2026-07-05 | pending |
+| Permutations (#46) | Backtracking | permutation_generation | 2026-06-25 | 2026-07-06 | pending |
 | House Robber (#198) | DynamicProgramming | linear_dp | 2026-05-28 | 2026-06-07 | done |
 | House Robber (#198) | DynamicProgramming | linear_dp | 2026-06-07 | 2026-06-25 | done |
 | House Robber (#198) | DynamicProgramming | linear_dp | 2026-06-25 | 2026-07-15 | pending |
@@ -131,7 +131,7 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Combination Sum (#39) | Backtracking | combination_sum | 2026-06-22 | 2026-07-10 | pending |
 | Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-06-22 | 2026-06-24 | done |
 | Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-06-24 | 2026-06-28 | done |
-| Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-06-28 | 2026-07-05 | pending |
+| Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-06-28 | 2026-07-06 | pending |
 | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-06-03 | 2026-06-07 | done |
 | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-06-07 | 2026-06-21 | done |
 | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-06-21 | 2026-06-28 | done |
@@ -151,7 +151,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Binary Tree Right Side View (#199) | Trees | bfs_level_order | 2026-07-01 | 2026-08-15 | pending |
 | Balanced Binary Tree (#110) | Trees | balanced_tree | 2026-07-01 | 2026-10-01 | pending |
 | Group Anagrams (#49) | Hashing | grouping_by_key | 2026-06-10 | 2026-06-28 | done |
-| Group Anagrams (#49) | Hashing | grouping_by_key | 2026-06-28 | 2026-07-05 | pending |
+| Group Anagrams (#49) | Hashing | grouping_by_key | 2026-06-28 | 2026-07-05 | done |
+| Group Anagrams (#49) | Hashing | grouping_by_key | 2026-07-05 | 2026-10-05 | pending |
 | Longest Palindromic Substring (#5) | String | expand_around_center | 2026-06-11 | 2026-06-16 | done |
 | Longest Palindromic Substring (#5) | String | expand_around_center | 2026-06-16 | 2026-06-30 | done |
 | Longest Palindromic Substring (#5) | String | expand_around_center | 2026-06-30 | 2026-07-30 | pending |
