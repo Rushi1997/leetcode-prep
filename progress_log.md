@@ -1346,5 +1346,21 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-07-06 — Day 57
+
+**Reviews: 5** (all clean, no bugs — 2 more rolled to 07-07)
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Combinations (#77) | Backtracking | combination_generation | — | clean, retry 08-20 |
+| R | Permutations (#46) | Backtracking | permutation_generation | — | clean, retry 08-11 |
+| R | Insert Interval (#57) | Greedy | interval_merge | — | clean (dropped redundant sort), retry 07-31 |
+| R | Redundant Connection (#684) | UnionFind | cycle_detection | — | clean, retry 08-21 |
+| R | Diameter of Binary Tree (#543) | Trees | binary_tree_dp | — | clean, retry 07-26 |
+
+**Note:** All five clean — these are well-consolidated now, earning long intervals. Deferred Longest Repeating Char Replacement + Delete and Earn to 07-07.
+
+---
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11
