@@ -1362,5 +1362,24 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-07-07 — Day 58
+
+**Reviews: 4**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | — | clean (still over-engineers the maxLen line), retry 07-14 |
+| R | Delete and Earn (#740) | DynamicProgramming | linear_dp | — | had a real bug, retry 07-21 |
+| R | Number of 1 Bits (#191) | BitManipulation | bit_counting | — | clean, retry 07-17 |
+| R | Majority Element (#169) | Arrays | frequency_counting | — | clean, retry 07-14 |
+
+**Bug during review (Delete and Earn) — phantom earnings:**
+- Built earn array as `[0,1,2,...,maxNum]` (index=value), then only overwrote present values → ABSENT values kept their index as a fake earn value (`earn[1]=1` even with no 1s)
+- House Robber then collected phantom points → overcounted (dp[3]=10 instead of 9)
+- Fix: init earn to ALL ZEROS + set `earn[key] = key * count` (key directly, not the old `num[key]*count` trick)
+- Lesson: when building a value-indexed lookup array, the "not present" DEFAULT matters — here it must be 0
+
+---
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11

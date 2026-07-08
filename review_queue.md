@@ -120,7 +120,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Single Number (#136) | BitManipulation | xor_cancellation | 2026-06-18 | 2026-07-02 | done |
 | Single Number (#136) | BitManipulation | xor_cancellation | 2026-07-04 | 2026-07-29 | pending |
 | Number of 1 Bits (#191) | BitManipulation | bit_counting | 2026-06-12 | 2026-06-19 | done |
-| Number of 1 Bits (#191) | BitManipulation | bit_counting | 2026-06-19 | 2026-07-07 | pending |
+| Number of 1 Bits (#191) | BitManipulation | bit_counting | 2026-06-19 | 2026-07-07 | done |
+| Number of 1 Bits (#191) | BitManipulation | bit_counting | 2026-07-07 | 2026-07-17 | pending |
 | Rotting Oranges (#994) | Graphs | multi_source_bfs | 2026-06-19 | 2026-06-24 | done |
 | Rotting Oranges (#994) | Graphs | multi_source_bfs | 2026-06-24 | 2026-06-30 | done |
 | Rotting Oranges (#994) | Graphs | multi_source_bfs | 2026-06-30 | 2026-08-14 | pending |
@@ -136,7 +137,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Combination Sum (#39) | Backtracking | combination_sum | 2026-06-22 | 2026-07-10 | pending |
 | Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-06-22 | 2026-06-24 | done |
 | Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-06-24 | 2026-06-28 | done |
-| Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-06-28 | 2026-07-06 | pending |
+| Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-06-28 | 2026-07-06 | done |
+| Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-07-07 | 2026-07-14 | pending |
 | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-06-03 | 2026-06-07 | done |
 | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-06-07 | 2026-06-21 | done |
 | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-06-21 | 2026-06-28 | done |
@@ -150,7 +152,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | 2026-06-10 | 2026-06-15 | done |
 | Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | 2026-06-15 | 2026-06-29 | done |
 | Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | 2026-06-29 | 2026-07-20 | pending |
-| Majority Element (#169) | Arrays | frequency_counting | 2026-06-30 | 2026-07-07 | pending |
+| Majority Element (#169) | Arrays | frequency_counting | 2026-06-30 | 2026-07-07 | done |
+| Majority Element (#169) | Arrays | frequency_counting | 2026-07-07 | 2026-07-14 | pending |
 | Kth Smallest Element in a BST (#230) | Trees | inorder_traversal | 2026-06-30 | 2026-07-03 | done |
 | Kth Smallest Element in a BST (#230) | Trees | inorder_traversal | 2026-07-04 | 2026-07-22 | pending |
 | Count Good Nodes (#1448) | Trees | pass_down_state | 2026-07-05 | 2026-07-16 | pending |
@@ -171,7 +174,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Delete and Earn (#740) | DynamicProgramming | linear_dp | 2026-05-27 | 2026-05-30 | done |
 | Delete and Earn (#740) | DynamicProgramming | linear_dp | 2026-05-30 | 2026-06-07 | done |
 | Delete and Earn (#740) | DynamicProgramming | linear_dp | 2026-06-07 | 2026-06-25 | done |
-| Delete and Earn (#740) | DynamicProgramming | linear_dp | 2026-06-25 | 2026-07-06 | pending |
+| Delete and Earn (#740) | DynamicProgramming | linear_dp | 2026-06-25 | 2026-07-06 | done |
+| Delete and Earn (#740) | DynamicProgramming | linear_dp | 2026-07-07 | 2026-07-21 | pending |
 | Sort an Array (#912) | DivideAndConquer | merge_sort | 2026-05-29 | 2026-06-01 | done |
 | Sort an Array (#912) | DivideAndConquer | merge_sort | 2026-06-01 | 2026-06-16 | done |
 | Sort an Array (#912) | DivideAndConquer | merge_sort | 2026-06-16 | 2026-07-01 | done |
