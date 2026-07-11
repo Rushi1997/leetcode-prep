@@ -6,29 +6,29 @@ Catching back up on DSA patterns after a few years. Solving problems on LeetCode
 
 | Category | Done | Total | Patterns Touched |
 |----------|------|-------|-----------------|
-| Hashing | 10 | 107 | set_lookup, two_sum_pair, frequency_counting, grouping_by_key, consecutive_sequence |
-| TwoPointers | 11 | 107 | palindrome_check, in_place_array_modification, opposite_ends_pair_sum, partition, three_sum, container, floyd_cycle |
-| Stack | 5 | 100 | bracket_matching, stack_as_queue, monotonic_stack, min_stack |
-| BinarySearch | 5 | 162 | classic_binary_search, rotated_sorted_search, binary_search_on_answer |
-| LinkedList | 4 | 53 | reversal, fast_slow_pointers, merge_lists |
-| Arrays | 2 | 224 | prefix_suffix_products, frequency_counting |
-| SlidingWindow | 5 | 98 | fixed_window, variable_window, variable_window_unique_elements, replacement_budget |
-| Trees | 16 | 227 | dfs_traversal, tree_modification, path_sum, bst_operations, bfs_level_order, lowest_common_ancestor, binary_tree_dp, inorder_traversal, pass_down_state |
-| Graphs | 9 | 187 | grid_traversal, dfs_connected_components, graph_traversal, topological_sort, multi_source_bfs |
-| DynamicProgramming | 8 | 392 | linear_dp, knapsack, expand_around_center, multi_state_dp |
-| Greedy | 5 | 331 | stock_trading, interval_merge, interval_scheduling, cooldown_scheduling |
-| Backtracking | 8 | 69 | subset_enumeration, permutation_generation, combination_generation, grid_backtracking, combination_sum, dedup_backtracking |
-| Heap | 6 | 66 | top_k_elements, top_k_frequent, simulation_heap, design_priority_queue, two_heaps_median |
-| String | 1 | 124 | expand_around_center |
+| Hashing | 5 | 107 | set_lookup, frequency_counting, two_sum_pair, grouping_by_key, top_k_frequent |
+| TwoPointers | 0 | 107 | |
+| Stack | 0 | 100 | |
+| BinarySearch | 0 | 162 | |
+| LinkedList | 0 | 53 | |
+| Arrays | 1 | 224 | prefix_suffix_products |
+| SlidingWindow | 0 | 98 | |
+| Trees | 0 | 227 | |
+| Graphs | 0 | 187 | |
+| DynamicProgramming | 0 | 392 | |
+| Greedy | 0 | 331 | |
+| Backtracking | 0 | 69 | |
+| Heap | 0 | 66 | |
+| String | 0 | 124 | |
 | Math | 0 | 129 | |
-| BitManipulation | 2 | 131 | xor_cancellation, bit_counting |
-| Design | 2 | 83 | stack_as_queue, doubly_linked_list |
-| Trie | 1 | 43 | prefix_tree |
-| UnionFind | 2 | 51 | connected_components, cycle_detection |
-| DivideAndConquer | 1 | 24 | merge_sort |
+| BitManipulation | 0 | 131 | |
+| Design | 0 | 83 | |
+| Trie | 0 | 43 | |
+| UnionFind | 0 | 51 | |
+| DivideAndConquer | 0 | 24 | |
 | SegmentTree | 0 | 25 | |
 
-**Total: 104 / 2733**
+**Total: 6 / 2733**
 
 ## Key Files
 
@@ -39,4 +39,4 @@ Catching back up on DSA patterns after a few years. Solving problems on LeetCode
 
 ## Started
 
-2026-05-06
+2026-07-08
