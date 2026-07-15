@@ -16,5 +16,7 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Valid Palindrome (#125) | Two Pointers | two_pointer_inward | 2026-07-14 | 2026-07-18 | pending |
 | Two Sum II (#167) | Two Pointers | two_pointer_inward | 2026-07-14 | 2026-07-18 | pending |
 | 3Sum (#15) | Two Pointers | two_pointer_inward | 2026-07-14 | 2026-07-21 | pending |
+| Container With Most Water (#11) | Two Pointers | two_pointer_inward | 2026-07-14 | 2026-07-21 | pending |
+| Best Time to Buy and Sell Stock (#121) | Sliding Window | min_tracking | 2026-07-14 | 2026-08-14 | pending |
 | Top K Frequent Elements (#347) — bucket sort optimal | Hashing | top_k_frequent | 2026-07-09 | 2026-07-10 | pending |
 | Top K Frequent Elements (#347) | Hashing | top_k_frequent | 2026-07-09 | 2026-07-17 | pending |

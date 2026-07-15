@@ -91,10 +91,13 @@ Daily journal of problems solved, learnings, and next steps.
 | 10 | Valid Palindrome (#125) | Two Pointers | two_pointer_inward | 9/10 |
 | 11 | Two Sum II (#167) | Two Pointers | two_pointer_inward | 8/10 |
 | 12 | 3Sum (#15) | Two Pointers | two_pointer_inward | 7/10 |
+| 13 | Container With Most Water (#11) | Two Pointers | two_pointer_inward | 10/10 |
+| 14 | Best Time to Buy and Sell Stock (#121) | Sliding Window | min_tracking | 7/10 |
 
 **Notes:**
 - Valid Sudoku: understood structure but didn't complete — review 2026-07-17
 - Encode and Decode: encode clean; decode had one bug (`s[i]` instead of `s[j]` in inner while loop)
 - Valid Palindrome (#125): first attempt had inverted isalnum logic; second attempt clean 9/10
 - Two Sum II (#167): first attempt used binary search (too complex); second attempt two pointers clean, one typo `j-=i` vs `j-=1` → 8/10
-- 3Sum (#15): took 3 attempts — missing two-pointer loop, then missing dup skip after match; final solve clean 10/10
+- 3Sum (#15): took 3 attempts — missing two-pointer loop, then missing dup skip after match; final solve clean 7/10
+- Container With Most Water (#11): first attempt infinite loop on equal heights; second attempt clean 10/10
