@@ -61,3 +61,38 @@ Daily journal of problems solved, learnings, and next steps.
 **Notes:**
 - Two Sum: still using `num != target-num` guard — drop it. Single-pass handles duplicates naturally
 - Top K Frequent: needed full solution shown — bucket sort not internalized yet, on review for 2026-07-17
+
+---
+
+## 2026-07-13 — Day 4
+
+**Reviews: 1 | New: 1**
+
+| # | Problem | Category | Pattern | Score |
+|---|---------|----------|---------|-------|
+| R | Product of Array Except Self (#238) | Arrays | prefix_suffix_products | 5/10 |
+| 7 | Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | 8/10 |
+
+**Notes:**
+- Product of Array Except Self: remembered two-pass structure; bug was `=` instead of `*=` in second pass
+- Longest Consecutive Sequence: took 3 attempts — fixed set syntax and variable names on attempt 2, added start-of-sequence guard and `length=1` on attempt 3; clean solve
+- Key pattern: `if (i-1) in a: continue` skips non-starts → keeps it O(n). Extend rightward with `while (i+1) in a`
+
+---
+
+## 2026-07-14 — Day 5
+
+**New: 2**
+
+| # | Problem | Category | Pattern | Score |
+|---|---------|----------|---------|-------|
+| 8 | Valid Sudoku (#36) | Hashing | multi_set_validation | incomplete — queued for review |
+| 9 | Encode and Decode Strings (#271) | Hashing | length_prefix_encoding | 8/10 |
+| 10 | Valid Palindrome (#125) | Two Pointers | two_pointer_inward | 9/10 |
+| 11 | Two Sum II (#167) | Two Pointers | two_pointer_inward | 8/10 |
+
+**Notes:**
+- Valid Sudoku: understood structure but didn't complete — review 2026-07-17
+- Encode and Decode: encode clean; decode had one bug (`s[i]` instead of `s[j]` in inner while loop)
+- Valid Palindrome (#125): first attempt had inverted isalnum logic; second attempt clean 9/10
+- Two Sum II (#167): first attempt used binary search (too complex); second attempt two pointers clean, one typo `j-=i` vs `j-=1` → 8/10
