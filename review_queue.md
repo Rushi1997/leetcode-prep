@@ -15,5 +15,6 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Encode and Decode Strings (#271) | Hashing | length_prefix_encoding | 2026-07-14 | 2026-07-18 | pending |
 | Valid Palindrome (#125) | Two Pointers | two_pointer_inward | 2026-07-14 | 2026-07-18 | pending |
 | Two Sum II (#167) | Two Pointers | two_pointer_inward | 2026-07-14 | 2026-07-18 | pending |
+| 3Sum (#15) | Two Pointers | two_pointer_inward | 2026-07-14 | 2026-07-21 | pending |
 | Top K Frequent Elements (#347) — bucket sort optimal | Hashing | top_k_frequent | 2026-07-09 | 2026-07-10 | pending |
 | Top K Frequent Elements (#347) | Hashing | top_k_frequent | 2026-07-09 | 2026-07-17 | pending |
