@@ -93,6 +93,7 @@ Daily journal of problems solved, learnings, and next steps.
 | 12 | 3Sum (#15) | Two Pointers | two_pointer_inward | 7/10 |
 | 13 | Container With Most Water (#11) | Two Pointers | two_pointer_inward | 10/10 |
 | 14 | Best Time to Buy and Sell Stock (#121) | Sliding Window | min_tracking | 7/10 |
+| 15 | Longest Substring Without Repeating Characters (#3) | Sliding Window | sliding_window_set | 5/10 |
 
 **Notes:**
 - Valid Sudoku: understood structure but didn't complete — review 2026-07-17
