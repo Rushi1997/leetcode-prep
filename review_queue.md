@@ -6,7 +6,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 |---------|----------|---------|-------------|-------------|--------|
 | Valid Anagram (#242) | Hashing | frequency_counting | 2026-07-08 | 2026-07-11 | pending |
 | Two Sum (#1) | Hashing | two_sum_pair | 2026-07-08 | 2026-07-10 | done |
-| Two Sum (#1) | Hashing | two_sum_pair | 2026-07-10 | 2026-07-17 | pending |
+| Two Sum (#1) | Hashing | two_sum_pair | 2026-07-10 | 2026-07-17 | done |
+| Two Sum (#1) | Hashing | two_sum_pair | 2026-07-17 | 2026-07-31 | pending |
 | Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | 2026-07-10 | 2026-07-12 | done |
 | Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | 2026-07-13 | 2026-07-17 | pending |
 | Group Anagrams (#49) | Hashing | grouping_by_key | 2026-07-09 | 2026-07-14 | pending |
@@ -20,4 +21,5 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Best Time to Buy and Sell Stock (#121) | Sliding Window | min_tracking | 2026-07-14 | 2026-08-14 | pending |
 | Longest Substring Without Repeating Characters (#3) | Sliding Window | sliding_window_set | 2026-07-17 | 2026-08-17 | pending |
 | Top K Frequent Elements (#347) — bucket sort optimal | Hashing | top_k_frequent | 2026-07-09 | 2026-07-10 | pending |
-| Top K Frequent Elements (#347) | Hashing | top_k_frequent | 2026-07-09 | 2026-07-17 | pending |
+| Top K Frequent Elements (#347) | Hashing | top_k_frequent | 2026-07-09 | 2026-07-17 | done |
+| Top K Frequent Elements (#347) | Hashing | top_k_frequent | 2026-07-17 | 2026-08-17 | pending |
