@@ -68,6 +68,25 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-07-17 — Day 6
+
+**Reviews: 3 | New: 1**
+
+| # | Problem | Category | Pattern | Score |
+|---|---------|----------|---------|-------|
+| R | Two Sum (#1) | Hashing | two_sum_pair | 8/10 |
+| R | Top K Frequent Elements (#347) | Hashing | top_k_frequent | 8/10 |
+| R | Valid Sudoku (#36) | Hashing | multi_set_validation | 8/10 |
+| 16 | Longest Substring Without Repeating Characters (#3) | Sliding Window | sliding_window_set | 5/10 |
+
+**Notes:**
+- Two Sum: first attempt used list instead of dict; second attempt clean single-pass hashmap
+- Top K Frequent: bucket indexing wrong on first attempt; clicked on second attempt
+- Valid Sudoku: recurring bug — init sets inside loop and checking list not set[i]; clean after guidance
+- Longest Substring: two pointer approach on first attempt (wrong); sliding window clean on second attempt
+
+---
+
 ## 2026-07-13 — Day 4
 
 **Reviews: 1 | New: 1**
