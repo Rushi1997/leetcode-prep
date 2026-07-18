@@ -95,10 +95,12 @@ Daily journal of problems solved, learnings, and next steps.
 |---|---------|----------|---------|-------|
 | R | Valid Anagram (#242) | Hashing | frequency_counting | 6/10 |
 | R | Group Anagrams (#49) | Hashing | grouping_by_key | 10/10 |
+| R | Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | 9/10 |
 
 **Notes:**
 - Valid Anagram: approach correct (26-slot array); syntax bugs — `[0].len(26)` → `[0]*26`, `i-'a'` → `ord(i)-ord('a')`
 - Group Anagrams: clean first attempt — 10/10
+- Longest Consecutive Sequence: infinite loop on first attempt (num not moving); clean on second attempt — 9/10
 
 ---
 

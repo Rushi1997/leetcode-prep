@@ -10,7 +10,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Two Sum (#1) | Hashing | two_sum_pair | 2026-07-10 | 2026-07-17 | done |
 | Two Sum (#1) | Hashing | two_sum_pair | 2026-07-17 | 2026-07-31 | pending |
 | Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | 2026-07-10 | 2026-07-12 | done |
-| Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | 2026-07-13 | 2026-07-17 | pending |
+| Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | 2026-07-13 | 2026-07-17 | done |
+| Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | 2026-07-18 | 2026-08-18 | pending |
 | Group Anagrams (#49) | Hashing | grouping_by_key | 2026-07-09 | 2026-07-14 | done |
 | Group Anagrams (#49) | Hashing | grouping_by_key | 2026-07-18 | 2026-08-18 | pending |
 | Product of Array Except Self (#238) | Arrays | prefix_suffix_products | 2026-07-09 | 2026-07-13 | done |
