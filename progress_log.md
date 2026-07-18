@@ -63,6 +63,8 @@ Daily journal of problems solved, learnings, and next steps.
 - Top K Frequent: needed full solution shown — bucket sort not internalized yet, on review for 2026-07-17
 - Two Sum review (2026-07-17): 8/10 — pattern solid, review due 2026-07-31
 - Top K Frequent review (2026-07-17): 8/10 — bucket sort clicked on second attempt, review due 2026-08-17
+- Valid Sudoku review (2026-07-17): 8/10 — recurring bugs: init sets inside loop, checking list not set[i]; final solve clean
+- Longest Consecutive Sequence review (2026-07-17): pending
 
 ---
 

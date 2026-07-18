@@ -12,7 +12,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | 2026-07-13 | 2026-07-17 | pending |
 | Group Anagrams (#49) | Hashing | grouping_by_key | 2026-07-09 | 2026-07-14 | pending |
 | Product of Array Except Self (#238) | Arrays | prefix_suffix_products | 2026-07-09 | 2026-07-13 | done |
-| Valid Sudoku (#36) | Hashing | multi_set_validation | 2026-07-14 | 2026-07-17 | pending |
+| Valid Sudoku (#36) | Hashing | multi_set_validation | 2026-07-14 | 2026-07-17 | done |
+| Valid Sudoku (#36) | Hashing | multi_set_validation | 2026-07-17 | 2026-08-17 | pending |
 | Encode and Decode Strings (#271) | Hashing | length_prefix_encoding | 2026-07-14 | 2026-07-18 | pending |
 | Valid Palindrome (#125) | Two Pointers | two_pointer_inward | 2026-07-14 | 2026-07-18 | pending |
 | Two Sum II (#167) | Two Pointers | two_pointer_inward | 2026-07-14 | 2026-07-18 | pending |
