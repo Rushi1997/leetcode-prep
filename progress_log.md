@@ -87,6 +87,21 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-07-18 — Day 7
+
+**Reviews**
+
+| # | Problem | Category | Pattern | Score |
+|---|---------|----------|---------|-------|
+| R | Valid Anagram (#242) | Hashing | frequency_counting | 6/10 |
+| R | Group Anagrams (#49) | Hashing | grouping_by_key | 10/10 |
+
+**Notes:**
+- Valid Anagram: approach correct (26-slot array); syntax bugs — `[0].len(26)` → `[0]*26`, `i-'a'` → `ord(i)-ord('a')`
+- Group Anagrams: clean first attempt — 10/10
+
+---
+
 ## 2026-07-13 — Day 4
 
 **Reviews: 1 | New: 1**
