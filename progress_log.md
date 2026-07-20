@@ -113,12 +113,14 @@ Daily journal of problems solved, learnings, and next steps.
 | 17 | Longest Repeating Character Replacement (#424) | Sliding Window | sliding_window_freq | 3/10 |
 | 18 | Permutation in String (#567) | Sliding Window | fixed_window_freq | 6/10 |
 | 19 | Minimum Window Substring (#76) | Sliding Window | sliding_window_counter | 5/10 |
+| 20 | Valid Parentheses (#20) | Stack | stack_matching | 9/10 |
 
 **Notes:**
 - Longest Repeating Character Replacement: first attempt copied solution; second attempt from memory — window length `r-l` should be `r-l+1`, `count.values()+1` is wrong — should be `max(count.values())`
 - Key formula: `(r - l + 1) - max(count.values()) > k` → window invalid
 - Permutation in String: first attempt wrong window logic; understood fixed-window pattern after walkthrough — 6/10
 - Minimum Window Substring: multiple attempts — order of ops in while loop was key. Pattern: sliding window with two Counters, track `have` vs `need`. Expand right until all chars satisfied, then trim from left until a required char drops below needed count, recording min window each time before trimming.
+- Valid Parentheses: multiple attempts — bidirectional dict caused bugs; fixed with opening→closing dict and looking up `res[r[-1]]` not `res[c]`
 
 ---
 
