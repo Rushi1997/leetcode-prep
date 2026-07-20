@@ -111,10 +111,12 @@ Daily journal of problems solved, learnings, and next steps.
 | # | Problem | Category | Pattern | Score |
 |---|---------|----------|---------|-------|
 | 17 | Longest Repeating Character Replacement (#424) | Sliding Window | sliding_window_freq | 3/10 |
+| 18 | Permutation in String (#567) | Sliding Window | fixed_window_freq | 6/10 |
 
 **Notes:**
 - Longest Repeating Character Replacement: first attempt copied solution; second attempt from memory — window length `r-l` should be `r-l+1`, `count.values()+1` is wrong — should be `max(count.values())`
 - Key formula: `(r - l + 1) - max(count.values()) > k` → window invalid
+- Permutation in String: first attempt wrong window logic; understood fixed-window pattern after walkthrough — 6/10
 
 ---
 

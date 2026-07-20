@@ -13,6 +13,7 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | 2026-07-13 | 2026-07-17 | done |
 | Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | 2026-07-18 | 2026-08-18 | pending |
 | Longest Repeating Character Replacement (#424) | Sliding Window | sliding_window_freq | 2026-07-20 | 2026-07-27 | pending |
+| Permutation in String (#567) | Sliding Window | fixed_window_freq | 2026-07-20 | 2026-08-20 | pending |
 | Group Anagrams (#49) | Hashing | grouping_by_key | 2026-07-09 | 2026-07-14 | done |
 | Group Anagrams (#49) | Hashing | grouping_by_key | 2026-07-18 | 2026-08-18 | pending |
 | Product of Array Except Self (#238) | Arrays | prefix_suffix_products | 2026-07-09 | 2026-07-13 | done |
