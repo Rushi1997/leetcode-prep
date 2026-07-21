@@ -115,6 +115,7 @@ Daily journal of problems solved, learnings, and next steps.
 | 19 | Minimum Window Substring (#76) | Sliding Window | sliding_window_counter | 5/10 |
 | 20 | Valid Parentheses (#20) | Stack | stack_matching | 9/10 |
 | 21 | Min Stack (#155) | Stack | two_stack_min | 9/10 |
+| 22 | Evaluate Reverse Polish Notation (#150) | Stack | stack_eval | 10/10 |
 
 **Notes:**
 - Longest Repeating Character Replacement: first attempt copied solution; second attempt from memory — window length `r-l` should be `r-l+1`, `count.values()+1` is wrong — should be `max(count.values())`
