@@ -16,6 +16,7 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Permutation in String (#567) | Sliding Window | fixed_window_freq | 2026-07-20 | 2026-08-20 | pending |
 | Minimum Window Substring (#76) | Sliding Window | sliding_window_counter | 2026-07-20 | 2026-07-27 | pending |
 | Valid Parentheses (#20) | Stack | stack_matching | 2026-07-20 | 2026-07-27 | pending |
+| Min Stack (#155) | Stack | two_stack_min | 2026-07-20 | 2026-07-27 | pending |
 | Group Anagrams (#49) | Hashing | grouping_by_key | 2026-07-09 | 2026-07-14 | done |
 | Group Anagrams (#49) | Hashing | grouping_by_key | 2026-07-18 | 2026-08-18 | pending |
 | Product of Array Except Self (#238) | Arrays | prefix_suffix_products | 2026-07-09 | 2026-07-13 | done |
