@@ -127,6 +127,19 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-07-21 — Day 9
+
+**Reviews**
+
+| # | Problem | Category | Pattern | Score |
+|---|---------|----------|---------|-------|
+| R | 3Sum (#15) | Two Pointers | two_pointer_inward | 9/10 |
+
+**Notes:**
+- 3Sum: first attempt missing inner while loop; second attempt clean — reset j=i+1, k=len-1 inside loop
+
+---
+
 ## 2026-07-13 — Day 4
 
 **Reviews: 1 | New: 1**
