@@ -28,6 +28,7 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Two Sum II (#167) | Two Pointers | two_pointer_inward | 2026-07-14 | 2026-07-18 | pending |
 | 3Sum (#15) | Two Pointers | two_pointer_inward | 2026-07-14 | 2026-07-21 | done |
 | 3Sum (#15) | Two Pointers | two_pointer_inward | 2026-07-21 | 2026-08-21 | pending |
+| Generate Parentheses (#22) | Stack/Backtracking | backtracking | 2026-07-21 | 2026-08-04 | pending |
 | Container With Most Water (#11) | Two Pointers | two_pointer_inward | 2026-07-14 | 2026-07-21 | pending |
 | Best Time to Buy and Sell Stock (#121) | Sliding Window | min_tracking | 2026-07-14 | 2026-08-14 | pending |
 | Longest Substring Without Repeating Characters (#3) | Sliding Window | sliding_window_set | 2026-07-17 | 2026-08-17 | pending |

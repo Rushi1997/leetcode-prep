@@ -134,9 +134,11 @@ Daily journal of problems solved, learnings, and next steps.
 | # | Problem | Category | Pattern | Score |
 |---|---------|----------|---------|-------|
 | R | 3Sum (#15) | Two Pointers | two_pointer_inward | 9/10 |
+| 23 | Generate Parentheses (#22) | Stack/Backtracking | backtracking | 5/10 |
 
 **Notes:**
 - 3Sum: first attempt missing inner while loop; second attempt clean — reset j=i+1, k=len-1 inside loop
+- Generate Parentheses: multiple attempts — elif→if, close<open not close<target, pop() not remove(), pass [] not self.res; final solve clean 5/10
 
 ---
 
