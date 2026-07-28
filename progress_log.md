@@ -139,10 +139,12 @@ Daily journal of problems solved, learnings, and next steps.
 | 25 | Car Fleet (#853) | Stack | monotonic_stack | 10/10 |
 | 26 | Binary Search (#704) | Binary Search | binary_search | 10/10 |
 | 27 | Search a 2D Matrix (#74) | Binary Search | binary_search_2d | 9/10 |
+| 28 | Koko Eating Bananas (#875) | Binary Search | binary_search_answer | 5/10 |
 
 **Notes:**
 - 3Sum: first attempt missing inner while loop; second attempt clean — reset j=i+1, k=len-1 inside loop
 - Generate Parentheses: multiple attempts — elif→if, close<open not close<target, pop() not remove(), pass [] not self.res; final solve clean 5/10
+- Koko Eating Bananas: first attempt had `hours=` (overwrite) and `j=mid` (infinite loop); second attempt clean — binary search on answer not input
 
 ---
 
