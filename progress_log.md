@@ -138,6 +138,7 @@ Daily journal of problems solved, learnings, and next steps.
 | 24 | Daily Temperatures (#739) | Stack | monotonic_stack | 10/10 |
 | 25 | Car Fleet (#853) | Stack | monotonic_stack | 10/10 |
 | 26 | Binary Search (#704) | Binary Search | binary_search | 10/10 |
+| 27 | Search a 2D Matrix (#74) | Binary Search | binary_search_2d | 9/10 |
 
 **Notes:**
 - 3Sum: first attempt missing inner while loop; second attempt clean — reset j=i+1, k=len-1 inside loop
