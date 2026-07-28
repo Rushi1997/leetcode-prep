@@ -135,6 +135,7 @@ Daily journal of problems solved, learnings, and next steps.
 |---|---------|----------|---------|-------|
 | R | 3Sum (#15) | Two Pointers | two_pointer_inward | 9/10 |
 | 23 | Generate Parentheses (#22) | Stack/Backtracking | backtracking | 5/10 |
+| 24 | Daily Temperatures (#739) | Stack | monotonic_stack | 10/10 |
 
 **Notes:**
 - 3Sum: first attempt missing inner while loop; second attempt clean — reset j=i+1, k=len-1 inside loop
