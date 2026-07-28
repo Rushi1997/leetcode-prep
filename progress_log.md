@@ -137,6 +137,7 @@ Daily journal of problems solved, learnings, and next steps.
 | 23 | Generate Parentheses (#22) | Stack/Backtracking | backtracking | 5/10 |
 | 24 | Daily Temperatures (#739) | Stack | monotonic_stack | 10/10 |
 | 25 | Car Fleet (#853) | Stack | monotonic_stack | 10/10 |
+| 26 | Binary Search (#704) | Binary Search | binary_search | 10/10 |
 
 **Notes:**
 - 3Sum: first attempt missing inner while loop; second attempt clean — reset j=i+1, k=len-1 inside loop

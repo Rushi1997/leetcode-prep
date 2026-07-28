@@ -31,6 +31,7 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Generate Parentheses (#22) | Stack/Backtracking | backtracking | 2026-07-21 | 2026-08-04 | pending |
 | Daily Temperatures (#739) | Stack | monotonic_stack | 2026-07-21 | 2026-07-28 | pending |
 | Car Fleet (#853) | Stack | monotonic_stack | 2026-07-21 | 2026-08-21 | pending |
+| Binary Search (#704) | Binary Search | binary_search | 2026-07-21 | 2026-07-28 | pending |
 | Container With Most Water (#11) | Two Pointers | two_pointer_inward | 2026-07-14 | 2026-07-21 | pending |
 | Best Time to Buy and Sell Stock (#121) | Sliding Window | min_tracking | 2026-07-14 | 2026-08-14 | pending |
 | Longest Substring Without Repeating Characters (#3) | Sliding Window | sliding_window_set | 2026-07-17 | 2026-08-17 | pending |
