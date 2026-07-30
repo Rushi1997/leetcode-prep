@@ -37,6 +37,7 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Binary Search (#704) | Binary Search | binary_search | 2026-07-21 | 2026-07-28 | pending |
 | Search a 2D Matrix (#74) | Binary Search | binary_search_2d | 2026-07-21 | 2026-07-28 | pending |
 | Koko Eating Bananas (#875) | Binary Search | binary_search_answer | 2026-07-21 | 2026-08-04 | pending |
+| Find Minimum in Rotated Sorted Array (#153) | Binary Search | binary_search_rotated | 2026-07-29 | 2026-08-12 | pending |
 | Container With Most Water (#11) | Two Pointers | two_pointer_inward | 2026-07-14 | 2026-07-21 | pending |
 | Best Time to Buy and Sell Stock (#121) | Sliding Window | min_tracking | 2026-07-14 | 2026-08-14 | pending |
 | Longest Substring Without Repeating Characters (#3) | Sliding Window | sliding_window_set | 2026-07-17 | 2026-08-17 | pending |

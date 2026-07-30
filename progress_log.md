@@ -150,18 +150,20 @@ Daily journal of problems solved, learnings, and next steps.
 
 ## 2026-07-29 — Day 10
 
-**Reviews: 3**
+**Reviews: 3 | New: 1**
 
 | # | Problem | Category | Pattern | Score |
 |---|---------|----------|---------|-------|
 | R | Valid Palindrome (#125) | Two Pointers | two_pointer_inward | 9/10 |
 | R | Evaluate Reverse Polish Notation (#150) | Stack | stack_eval | 7/10 |
 | R | Daily Temperatures (#739) | Stack | monotonic_stack | 10/10 |
+| 29 | Find Minimum in Rotated Sorted Array (#153) | Binary Search | binary_search_rotated | 6/10 |
 
 **Notes:**
 - Valid Palindrome: first attempt had `!` instead of `not`, `s[f]` instead of `s[j]`, `return False` at end → fixed all three, second attempt clean
 - Evaluate Reverse Polish Notation: `while i<j` missed last token (should be `while i<len(tokens)`), `stack.append(t)` pushed string not int — both needed pointing out; fixed cleanly
 - Daily Temperatures: perfect first attempt — monotonic stack pattern fully internalized
+- Find Minimum in Rotated Sorted Array: two attempts — first had bad movement logic and broken res tracking; second had correct `nums[k]>=nums[j]` → go right, `else j=k` logic but still tracking res unnecessarily. Key: compare mid to right boundary, `return nums[i]` — no res needed
 
 ---
 
