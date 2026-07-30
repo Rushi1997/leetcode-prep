@@ -17,19 +17,22 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Minimum Window Substring (#76) | Sliding Window | sliding_window_counter | 2026-07-20 | 2026-07-27 | pending |
 | Valid Parentheses (#20) | Stack | stack_matching | 2026-07-20 | 2026-07-27 | pending |
 | Min Stack (#155) | Stack | two_stack_min | 2026-07-20 | 2026-07-27 | pending |
-| Evaluate Reverse Polish Notation (#150) | Stack | stack_eval | 2026-07-20 | 2026-07-27 | pending |
+| Evaluate Reverse Polish Notation (#150) | Stack | stack_eval | 2026-07-20 | 2026-07-27 | done |
+| Evaluate Reverse Polish Notation (#150) | Stack | stack_eval | 2026-07-29 | 2026-08-29 | pending |
 | Group Anagrams (#49) | Hashing | grouping_by_key | 2026-07-09 | 2026-07-14 | done |
 | Group Anagrams (#49) | Hashing | grouping_by_key | 2026-07-18 | 2026-08-18 | pending |
 | Product of Array Except Self (#238) | Arrays | prefix_suffix_products | 2026-07-09 | 2026-07-13 | done |
 | Valid Sudoku (#36) | Hashing | multi_set_validation | 2026-07-14 | 2026-07-17 | done |
 | Valid Sudoku (#36) | Hashing | multi_set_validation | 2026-07-17 | 2026-08-17 | pending |
 | Encode and Decode Strings (#271) | Hashing | length_prefix_encoding | 2026-07-14 | 2026-07-18 | pending |
-| Valid Palindrome (#125) | Two Pointers | two_pointer_inward | 2026-07-14 | 2026-07-18 | pending |
+| Valid Palindrome (#125) | Two Pointers | two_pointer_inward | 2026-07-14 | 2026-07-18 | done |
+| Valid Palindrome (#125) | Two Pointers | two_pointer_inward | 2026-07-29 | 2026-08-29 | pending |
 | Two Sum II (#167) | Two Pointers | two_pointer_inward | 2026-07-14 | 2026-07-18 | pending |
 | 3Sum (#15) | Two Pointers | two_pointer_inward | 2026-07-14 | 2026-07-21 | done |
 | 3Sum (#15) | Two Pointers | two_pointer_inward | 2026-07-21 | 2026-08-21 | pending |
 | Generate Parentheses (#22) | Stack/Backtracking | backtracking | 2026-07-21 | 2026-08-04 | pending |
-| Daily Temperatures (#739) | Stack | monotonic_stack | 2026-07-21 | 2026-07-28 | pending |
+| Daily Temperatures (#739) | Stack | monotonic_stack | 2026-07-21 | 2026-07-28 | done |
+| Daily Temperatures (#739) | Stack | monotonic_stack | 2026-07-29 | 2026-08-29 | pending |
 | Car Fleet (#853) | Stack | monotonic_stack | 2026-07-21 | 2026-08-21 | pending |
 | Binary Search (#704) | Binary Search | binary_search | 2026-07-21 | 2026-07-28 | pending |
 | Search a 2D Matrix (#74) | Binary Search | binary_search_2d | 2026-07-21 | 2026-07-28 | pending |
