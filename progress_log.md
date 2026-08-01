@@ -148,6 +148,23 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-08-01 — Day 11
+
+**Reviews: 3 | New: TBD**
+
+| # | Problem | Category | Pattern | Score |
+|---|---------|----------|---------|-------|
+| R | Binary Search (#704) | Binary Search | binary_search | 10/10 |
+| R | Valid Parentheses (#20) | Stack | stack_matching | 7/10 |
+| R | Two Sum (#1) | Hashing | two_sum_pair | 10/10 |
+
+**Notes:**
+- Binary Search: perfect — clean `while i<=j`, correct boundary moves
+- Valid Parentheses: logic correct, crashed on closing bracket with empty stack — fix: `if not r or res[r[-1]] != j`
+- Two Sum: clean single-pass hashmap, 10/10
+
+---
+
 ## 2026-07-29 — Day 10
 
 **Reviews: 3 | New: 1**
