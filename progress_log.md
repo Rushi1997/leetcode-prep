@@ -157,11 +157,13 @@ Daily journal of problems solved, learnings, and next steps.
 | R | Binary Search (#704) | Binary Search | binary_search | 10/10 |
 | R | Valid Parentheses (#20) | Stack | stack_matching | 7/10 |
 | R | Two Sum (#1) | Hashing | two_sum_pair | 10/10 |
+| 31 | Time Based Key-Value Store (#981) | Binary Search | binary_search_timemap | 7/10 |
 
 **Notes:**
 - Binary Search: perfect — clean `while i<=j`, correct boundary moves
 - Valid Parentheses: logic correct, crashed on closing bracket with empty stack — fix: `if not r or res[r[-1]] != j`
 - Two Sum: clean single-pass hashmap, 10/10
+- Time Based Key-Value Store: needed design explained (per-key list of tuples, binary search on timestamp); wrote correct solution after walkthrough. Key: save candidate when `pairs[k][0]<=timestamp`, go right to find closer match
 
 ---
 
