@@ -159,6 +159,7 @@ Daily journal of problems solved, learnings, and next steps.
 | R | Two Sum (#1) | Hashing | two_sum_pair | 10/10 |
 | 31 | Time Based Key-Value Store (#981) | Binary Search | binary_search_timemap | 7/10 |
 | 32 | Reverse Linked List (#206) | Linked List | reverse_linked_list | 8/10 |
+| 33 | Merge Two Sorted Lists (#21) | Linked List | merge_sorted_lists | 8/10 |
 
 **Notes:**
 - Binary Search: perfect — clean `while i<=j`, correct boundary moves
@@ -166,6 +167,7 @@ Daily journal of problems solved, learnings, and next steps.
 - Two Sum: clean single-pass hashmap, 10/10
 - Time Based Key-Value Store: needed design explained (per-key list of tuples, binary search on timestamp); wrote correct solution after walkthrough. Key: save candidate when `pairs[k][0]<=timestamp`, go right to find closer match
 - Reverse Linked List: first attempt advanced `n=n.next` after overwriting `n.next` — lost the rest of the list. Fixed with `nxt=n.next` save before overwrite; also fixed `while n.next!=None` → `while n!=None`
+- Merge Two Sorted Lists: first attempt used `new=None` (crash on `.next`) and typo `nex`. Fixed with dummy node pattern — `curr=ListNode(0)`, `new` walks forward, return `curr.next`
 
 ---
 
