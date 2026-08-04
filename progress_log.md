@@ -161,6 +161,7 @@ Daily journal of problems solved, learnings, and next steps.
 | 32 | Reverse Linked List (#206) | Linked List | reverse_linked_list | 8/10 |
 | 33 | Merge Two Sorted Lists (#21) | Linked List | merge_sorted_lists | 8/10 |
 | 34 | Reorder List (#143) | Linked List | reorder_linked_list | 7/10 |
+| 35 | Remove Nth Node From End (#19) | Linked List | two_pointer_gap | 8/10 |
 
 **Notes:**
 - Binary Search: perfect — clean `while i<=j`, correct boundary moves
@@ -170,6 +171,7 @@ Daily journal of problems solved, learnings, and next steps.
 - Reverse Linked List: first attempt advanced `n=n.next` after overwriting `n.next` — lost the rest of the list. Fixed with `nxt=n.next` save before overwrite; also fixed `while n.next!=None` → `while n!=None`
 - Merge Two Sorted Lists: first attempt used `new=None` (crash on `.next`) and typo `nex`. Fixed with dummy node pattern — `curr=ListNode(0)`, `new` walks forward, return `curr.next`
 - Reorder List: 3-step structure right (find middle, reverse, merge). Bugs: even-length crash (`while jump.next` → `while jump and jump.next`), wrong split (`r=start` → `r=start.next`), cycle in merge (overwriting pointer before saving next). Fix: always save `nxt_temp` and `nxt_rev` before any pointer modification
+- Remove Nth From End: shadowed parameter `n` with a node variable on first attempt. Fixed with dummy node — start `left` at dummy so it stops one before the target; `left.next=left.next.next` removes it
 
 ---
 

@@ -46,6 +46,7 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Reverse Linked List (#206) | Linked List | reverse_linked_list | 2026-08-02 | 2026-08-16 | pending |
 | Merge Two Sorted Lists (#21) | Linked List | merge_sorted_lists | 2026-08-02 | 2026-08-16 | pending |
 | Reorder List (#143) | Linked List | reorder_linked_list | 2026-08-03 | 2026-08-17 | pending |
+| Remove Nth Node From End (#19) | Linked List | two_pointer_gap | 2026-08-03 | 2026-08-17 | pending |
 | Container With Most Water (#11) | Two Pointers | two_pointer_inward | 2026-07-14 | 2026-07-21 | pending |
 | Best Time to Buy and Sell Stock (#121) | Sliding Window | min_tracking | 2026-07-14 | 2026-08-14 | pending |
 | Longest Substring Without Repeating Characters (#3) | Sliding Window | sliding_window_set | 2026-07-17 | 2026-08-17 | pending |
