@@ -164,6 +164,7 @@ Daily journal of problems solved, learnings, and next steps.
 | 35 | Remove Nth Node From End (#19) | Linked List | two_pointer_gap | 8/10 |
 | 36 | Copy List with Random Pointer (#138) | Linked List | hashmap_deep_copy | 5/10 |
 | 37 | Add Two Numbers (#2) | Linked List | linked_list_addition | 8/10 |
+| 38 | Linked List Cycle (#141) | Linked List | fast_slow_pointer | 8/10 |
 
 **Notes:**
 - Binary Search: perfect — clean `while i<=j`, correct boundary moves
@@ -176,6 +177,7 @@ Daily journal of problems solved, learnings, and next steps.
 - Remove Nth From End: shadowed parameter `n` with a node variable on first attempt. Fixed with dummy node — start `left` at dummy so it stops one before the target; `left.next=left.next.next` removes it
 - Copy List with Random Pointer: needed concept explained (why can't return head, why need map). Two-pass hashmap — pass 1 creates all copies, pass 2 wires next+random using map[original]=copy lookup
 - Add Two Numbers: in-place approach got complicated with unequal lengths + carry. Clean pattern: `while l1 or l2 or carry`, treat missing nodes as 0, build new list with `curr.next=ListNode(s%10)`
+- Linked List Cycle: first used list (O(n²)) — should be set or two pointers. Rewrote with Floyd's algorithm: slow+fast, meet = cycle, fast hits None = no cycle. O(1) space
 
 ---
 
