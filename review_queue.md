@@ -50,6 +50,7 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Copy List with Random Pointer (#138) | Linked List | hashmap_deep_copy | 2026-08-03 | 2026-09-03 | pending |
 | Add Two Numbers (#2) | Linked List | linked_list_addition | 2026-08-04 | 2026-08-18 | pending |
 | Linked List Cycle (#141) | Linked List | fast_slow_pointer | 2026-08-04 | 2026-08-18 | pending |
+| Find the Duplicate Number (#287) | Linked List | fast_slow_pointer | 2026-08-05 | 2026-08-19 | pending |
 | Container With Most Water (#11) | Two Pointers | two_pointer_inward | 2026-07-14 | 2026-07-21 | pending |
 | Best Time to Buy and Sell Stock (#121) | Sliding Window | min_tracking | 2026-07-14 | 2026-08-14 | pending |
 | Longest Substring Without Repeating Characters (#3) | Sliding Window | sliding_window_set | 2026-07-17 | 2026-08-17 | pending |
