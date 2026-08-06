@@ -167,6 +167,7 @@ Daily journal of problems solved, learnings, and next steps.
 | 38 | Linked List Cycle (#141) | Linked List | fast_slow_pointer | 8/10 |
 | 39 | Find the Duplicate Number (#287) | Linked List | fast_slow_pointer | 7/10 |
 | 40 | LRU Cache (#146) | Linked List | doubly_linked_list_hashmap | 4/10 |
+| 41 | Merge K Sorted Lists (#23) | Linked List | merge_k_lists | 8/10 |
 
 **Notes:**
 - Binary Search: perfect — clean `while i<=j`, correct boundary moves
@@ -182,6 +183,7 @@ Daily journal of problems solved, learnings, and next steps.
 - Linked List Cycle: first used list (O(n²)) — should be set or two pointers. Rewrote with Floyd's algorithm: slow+fast, meet = cycle, fast hits None = no cycle. O(1) space
 - Find the Duplicate Number: needed concept explained (array as linked list, duplicate = cycle entry). Phase 1: slow+fast meet inside cycle. Phase 2: reset slow to nums[0], move both 1 step until they meet = duplicate
 - LRU Cache: needed full solution shown — recurring bugs: missing `self` on remove/insert, bare `map` instead of `self.map`, wrong eviction logic. Key: Node class outside LRUCache, head=LRU/tail=MRU dummies, evict head.next when over cap
+- Merge K Sorted Lists: merge helper solid; bug was remaining-list attachment (start never advanced). Fixed with `start.next = l1 if l1 else l2; break`. mergeKLists: start with lists[0], merge each subsequent list into res
 
 ---
 
