@@ -166,6 +166,7 @@ Daily journal of problems solved, learnings, and next steps.
 | 37 | Add Two Numbers (#2) | Linked List | linked_list_addition | 8/10 |
 | 38 | Linked List Cycle (#141) | Linked List | fast_slow_pointer | 8/10 |
 | 39 | Find the Duplicate Number (#287) | Linked List | fast_slow_pointer | 7/10 |
+| 40 | LRU Cache (#146) | Linked List | doubly_linked_list_hashmap | 4/10 |
 
 **Notes:**
 - Binary Search: perfect — clean `while i<=j`, correct boundary moves
@@ -180,6 +181,7 @@ Daily journal of problems solved, learnings, and next steps.
 - Add Two Numbers: in-place approach got complicated with unequal lengths + carry. Clean pattern: `while l1 or l2 or carry`, treat missing nodes as 0, build new list with `curr.next=ListNode(s%10)`
 - Linked List Cycle: first used list (O(n²)) — should be set or two pointers. Rewrote with Floyd's algorithm: slow+fast, meet = cycle, fast hits None = no cycle. O(1) space
 - Find the Duplicate Number: needed concept explained (array as linked list, duplicate = cycle entry). Phase 1: slow+fast meet inside cycle. Phase 2: reset slow to nums[0], move both 1 step until they meet = duplicate
+- LRU Cache: needed full solution shown — recurring bugs: missing `self` on remove/insert, bare `map` instead of `self.map`, wrong eviction logic. Key: Node class outside LRUCache, head=LRU/tail=MRU dummies, evict head.next when over cap
 
 ---
 
