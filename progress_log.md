@@ -169,6 +169,7 @@ Daily journal of problems solved, learnings, and next steps.
 | 40 | LRU Cache (#146) | Linked List | doubly_linked_list_hashmap | 4/10 |
 | 41 | Merge K Sorted Lists (#23) | Linked List | merge_k_lists | 8/10 |
 | 42 | Invert Binary Tree (#226) | Trees | tree_traversal | 8/10 |
+| 43 | Maximum Depth of Binary Tree (#104) | Trees | tree_recursion | 8/10 |
 
 **Notes:**
 - Binary Search: perfect — clean `while i<=j`, correct boundary moves
@@ -186,6 +187,7 @@ Daily journal of problems solved, learnings, and next steps.
 - LRU Cache: needed full solution shown — recurring bugs: missing `self` on remove/insert, bare `map` instead of `self.map`, wrong eviction logic. Key: Node class outside LRUCache, head=LRU/tail=MRU dummies, evict head.next when over cap
 - Merge K Sorted Lists: merge helper solid; bug was remaining-list attachment (start never advanced). Fixed with `start.next = l1 if l1 else l2; break`. mergeKLists: start with lists[0], merge each subsequent list into res
 - Invert Binary Tree: overcomplicated first attempt (building new tree, wrong Null). Key: swap in-place unconditionally `node.left, node.right = node.right, node.left`, then push non-None children. Add `if not root: return None` guard
+- Maximum Depth of Binary Tree: iterative stack-length approach wrong. Recursive pattern: `if not root: return 0; return 1 + max(left, right)` — ask each subtree for its depth, add 1
 
 ---
 

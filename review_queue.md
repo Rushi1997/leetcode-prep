@@ -54,6 +54,7 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | LRU Cache (#146) | Linked List | doubly_linked_list_hashmap | 2026-08-05 | 2026-09-14 | pending |
 | Merge K Sorted Lists (#23) | Linked List | merge_k_lists | 2026-08-06 | 2026-08-20 | pending |
 | Invert Binary Tree (#226) | Trees | tree_traversal | 2026-08-09 | 2026-08-23 | pending |
+| Maximum Depth of Binary Tree (#104) | Trees | tree_recursion | 2026-08-09 | 2026-08-23 | pending |
 | Container With Most Water (#11) | Two Pointers | two_pointer_inward | 2026-07-14 | 2026-07-21 | pending |
 | Best Time to Buy and Sell Stock (#121) | Sliding Window | min_tracking | 2026-07-14 | 2026-08-14 | pending |
 | Longest Substring Without Repeating Characters (#3) | Sliding Window | sliding_window_set | 2026-07-17 | 2026-08-17 | pending |
