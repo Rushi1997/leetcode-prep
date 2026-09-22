@@ -216,6 +216,25 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-09-21 — Day 14
+
+**Reviews: 2**
+
+| # | Problem | Category | Pattern | Score |
+|---|---------|----------|---------|-------|
+| R | Two Sum II (#167) | Two Pointers | two_pointer_inward | 7/10 |
+| R | Encode and Decode Strings (#271) | Hashing | length_prefix_encoding | 10/10 |
+| R | Valid Anagram (#242) | Hashing | frequency_counting | 9/10 |
+| R | Longest Repeating Character Replacement (#424) | Sliding Window | sliding_window_freq | 6/10 |
+
+**Notes:**
+- Two Sum II: first attempt wrong pattern entirely — nested binary search inside a for loop (O(n log n)), plus an infinite-loop bug (`n1=mid` never advances) and an incomplete match check (only compared against right boundary, never `mid`). Rewrote with two-pointer inward; one bug left — `i+i+1` is a no-op, should be `i+=1` — fixed clean, 7/10
+- Encode and Decode Strings: clean first-pass solve with length-prefix encoding (`len#string`). Verified against 4 cases including strings containing `#` and empty strings — all passed, 10/10
+- Valid Anagram: same two Day-1 bugs recurred — indexing with the character itself instead of `ord(c)-ord('a')`, and `=+1`/`=-1` (assignment, not increment). Fixed both on second attempt, verified against 4 test cases — 9/10
+- Longest Repeating Character Replacement: pattern not internalized yet — needed the sliding-window concept walked through from scratch (coin/majority-count analogy). Multiple code bugs across attempts: `.add()` on a dict (set/dict mixup), `.get()` called on a value instead of the dict, backwards window length (`l-r` instead of `r-l+1`), `st.pop()` with no key, and a stale `window` variable not recomputed as `l` moved inside the `while` (caused an `IndexError`). Final version clean, all 5 tests pass — 6/10
+
+---
+
 ## 2026-07-13 — Day 4
 
 **Reviews: 1 | New: 1**
