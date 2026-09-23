@@ -4,6 +4,23 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-09-23 — Day 15
+
+**Reviews: 3**
+
+| # | Problem | Category | Pattern | Score |
+|---|---------|----------|---------|-------|
+| R | Container With Most Water (#11) | Two Pointers | two_pointer_inward | 7/10 |
+| R | Reverse Linked List (#206) | Linked List | reverse_linked_list | 6/10 |
+| R | Invert Binary Tree (#226) | Trees | tree_traversal | 6/10 |
+
+**Notes:**
+- Container With Most Water: first attempt missed the core two-pointer-inward setup — started `i,j=0,1` (adjacent) instead of opposite ends, called `height(i)` instead of indexing `height[i]`, and passed a single product into `min()` instead of `min(height[i], height[j])`. Second attempt fixed all three cleanly: pointers start at both ends, correct indexing, moves the shorter side inward. Verified against `[1,8,6,2,5,4,8,3,7]` → 49 — 7/10
+- Reverse Linked List: first attempt used `&` instead of `and` in the loop condition (crashes — `&` binds tighter than `!=`, so it tries `None & ListNode`), plus the condition also required `curr.next != None`, which dropped the last node from ever being relinked. Also left a dead, broken `swap` method above the real solution. Second attempt clean: `while curr != None`, correct pointer relinking, dead code removed. Traced `1->2->3->None` → `3->2->1->None` — 6/10
+- Invert Binary Tree: first attempt (iterative, stack-based) had `.app()`/`.add()` instead of `.append()`, `while stack != None` (never terminates — a list is never literally `None`), backwards `elif` conditions (checked for the sibling child's presence instead of its absence), and `return head` referencing an undefined variable. Second attempt fixed all five cleanly — verified on a 5-node tree, inversion matched exactly, and it even handles the empty-tree case safely by accident of the loop structure — 6/10
+
+---
+
 ## 2026-07-08 — Day 1
 
 **Problems solved: 3**

@@ -47,7 +47,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Find Minimum in Rotated Sorted Array (#153) | Binary Search | binary_search_rotated | 2026-07-29 | 2026-08-12 | pending |
 | Search in Rotated Sorted Array (#33) | Binary Search | binary_search_rotated | 2026-07-29 | 2026-08-12 | pending |
 | Time Based Key-Value Store (#981) | Binary Search | binary_search_timemap | 2026-08-02 | 2026-08-16 | pending |
-| Reverse Linked List (#206) | Linked List | reverse_linked_list | 2026-08-02 | 2026-08-16 | pending |
+| Reverse Linked List (#206) | Linked List | reverse_linked_list | 2026-08-02 | 2026-08-16 | done |
+| Reverse Linked List (#206) | Linked List | reverse_linked_list | 2026-09-23 | 2026-10-07 | pending |
 | Merge Two Sorted Lists (#21) | Linked List | merge_sorted_lists | 2026-08-02 | 2026-08-16 | pending |
 | Reorder List (#143) | Linked List | reorder_linked_list | 2026-08-03 | 2026-08-17 | pending |
 | Remove Nth Node From End (#19) | Linked List | two_pointer_gap | 2026-08-03 | 2026-08-17 | pending |
@@ -57,11 +58,13 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Find the Duplicate Number (#287) | Linked List | fast_slow_pointer | 2026-08-05 | 2026-08-19 | pending |
 | LRU Cache (#146) | Linked List | doubly_linked_list_hashmap | 2026-08-05 | 2026-09-14 | pending |
 | Merge K Sorted Lists (#23) | Linked List | merge_k_lists | 2026-08-06 | 2026-08-20 | pending |
-| Invert Binary Tree (#226) | Trees | tree_traversal | 2026-08-09 | 2026-08-23 | pending |
+| Invert Binary Tree (#226) | Trees | tree_traversal | 2026-08-09 | 2026-08-23 | done |
+| Invert Binary Tree (#226) | Trees | tree_traversal | 2026-09-23 | 2026-10-07 | pending |
 | Maximum Depth of Binary Tree (#104) | Trees | tree_recursion | 2026-08-09 | 2026-08-23 | pending |
 | Diameter of Binary Tree (#543) | Trees | tree_recursion | 2026-08-10 | 2026-08-17 | pending |
 | Balanced Binary Tree (#110) | Trees | tree_recursion | 2026-09-07 | 2026-09-14 | pending |
-| Container With Most Water (#11) | Two Pointers | two_pointer_inward | 2026-07-14 | 2026-07-21 | pending |
+| Container With Most Water (#11) | Two Pointers | two_pointer_inward | 2026-07-14 | 2026-07-21 | done |
+| Container With Most Water (#11) | Two Pointers | two_pointer_inward | 2026-09-23 | 2026-10-07 | pending |
 | Best Time to Buy and Sell Stock (#121) | Sliding Window | min_tracking | 2026-07-14 | 2026-08-14 | pending |
 | Longest Substring Without Repeating Characters (#3) | Sliding Window | sliding_window_set | 2026-07-17 | 2026-08-17 | pending |
 | Top K Frequent Elements (#347) — bucket sort optimal | Hashing | top_k_frequent | 2026-07-09 | 2026-07-10 | pending |
