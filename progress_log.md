@@ -4,6 +4,21 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-09-23 — Day 16
+
+**Reviews: 3**
+
+| # | Problem | Category | Pattern | Score |
+|---|---------|----------|---------|-------|
+| R | Maximum Depth of Binary Tree (#104) | Trees | tree_recursion | 5/10 |
+| R | Merge Two Sorted Lists (#21) | Linked List | merge_sorted_lists | 5/10 |
+| R | Time Based Key-Value Store (#981) | Binary Search | binary_search_timemap | 4/10 |
+
+**Notes:**
+- Maximum Depth: first attempt used a fundamentally wrong iterative traversal — an inner `while temp.left` loop walked straight down the left spine, and the `temp.right` check only fired once on whatever node that loop stopped at, so right subtrees of the root and every intermediate node were silently skipped entirely (confirmed wrong on a right-heavy counterexample: returned 2 instead of true depth 4). Second attempt restructured to push both children per node, but the two `elif` branches for single-child nodes still checked the wrong condition (presence instead of absence), so any node with exactly one child matched no branch and got truncated like a leaf (a pure left chain of 5 nodes returned 1 instead of 5) — also had a leftover `stack.left` typo instead of `temp.left`, and no `root is None` guard. Third attempt fixed all three cleanly — verified against a left-only chain, a right-heavy tree, and a balanced tree — 5/10
+- Merge Two Sorted Lists: first attempt's two `elif` branches for "one list exhausted" required both lists truthy (contradicting the point of being an elif after the both-non-None `if` already failed) — dead code, and the bodies also attached the wrong list. Second attempt changed `elif` to `if` without fixing the conditions, so the "one list remains" check (still just testing truthiness of both) fired on nearly every iteration and returned after merging only 1-2 nodes, discarding the rest (confirmed: `[1,2,4]`+`[1,3,4]` returned `[1,3,4]`). Third attempt fixed both the mutual exclusivity (elif again) and the actual exhaustion conditions (`list1==None`/`list2==None`) — verified against `[1,2,4]`+`[1,3,4]` → `[1,1,2,3,4,4]` and `[5]`+`[1,2,3]` → `[1,2,3,5]` — 5/10
+- Time Based Key-Value Store: needed the data-shape question walked through first (map key → list of `[timestamp, value]` pairs, naturally sorted since `set()` calls arrive in increasing timestamp order). Recurring bugs across ~4 attempts: `self.time` not used consistently (bare `time` referenced in method bodies, `NameError`), `dict.get[key]` (indexing a method instead of calling it), `list.add()` (sets have `.add()`, not lists), indexing a not-yet-created dict key in the `else` branch (`KeyError`) before switching to `self.time[key] = [[timestamp, value]]`. The `get()` binary search itself — "find the rightmost timestamp `<= target`" — needed the full pattern explained from scratch (track a `result` candidate, keep pushing `i` right on a match instead of stopping). Final version clean — verified against the classic `set/get` interleaving example, all outputs matched — 4/10
+
 ## 2026-09-23 — Day 15
 
 **Reviews: 3**
